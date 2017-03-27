@@ -1,0 +1,564 @@
+#-----------------------------------------------------------------------------------------------------------------------
+#Puzzles and Answers
+#-----------------------------------------------------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------------
+#Final Puzzle
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+01:02:03:04:05:06:07:08:09:10:11:12:13:14:15:16:17:18:19:20:21:
+21 25 15 22 05 08 01 19 20 23 01 05 04 21 18 25 15 13 09 20 05
+U  Y  O  V  E  H  A  S  T  W  A  E  D  U  R  Y  O  M  I  T  E
+UYOVEHASTWAEDURYOMITE
+UYO VEHA STWAED URYO MITE
+YOU HAVE WASTED YOUR TIME
+
+#--------
+#Answer(s)
+#--------
+you have wasted your time
+youhavewastedyourtime
+YOU HAVE WASTED YOUR TIME
+YOUHAVEWASTEDYOURTIME
+
+#----
+#Hint
+#----
+None of these numbers appear to be larger than 26
+
+#-----------
+#Solved Text
+#-----------
+Well it seems you have. Are you pleased with yourself?
+
+#----------------------------------------------------------------------------------
+#Puzzle 01
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+01110011 01101001 01101101 01110000 01101100 01100101 01100010 01101001 01101110 01100001 01110010 01111001 01110100 01101111 01100001 01110011 01100011 01101001 01101001
+
+#--------
+#Answer(s)
+#--------
+simplebinarytoascii
+
+#----
+#Hint
+#----
+This is a very binary language.
+
+#-----------
+#Solved Text
+#-----------
+Assuming you didn’t cheat, you've solved the first puzzle. The numbers were binary code which, when converted to ASCII(American Standard Code for Information Interchange), spelled out “simplebinarytoascii”.
+
+#----------------------------------------------------------------------------------
+#Puzzle 02
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+I don't have eyes, but once I did see.<br>
+Once I had thoughts, but now I'm white and empty.
+
+#--------
+#Answer(s)
+#--------
+skull
+Skull
+skulls
+Skulls
+
+#----
+#Hint
+#----
+This is a head scratcher isn't it?
+
+#-----------
+#Solved Text
+#-----------
+The answer was, of course, a skull.
+
+#----------------------------------------------------------------------------------
+#Puzzle 03
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+DCCXXXIV + CCXXVI &divide; XVI x (II + III)
+# 734 + 226 / 16 * (2 + 3) = 12
+
+#--------
+#Answer(s)
+#--------
+xii
+Xii
+xII
+XII
+
+#----
+#Hint
+#----
+I wonder if the Romans used BIDMAS.
+
+#-----------
+#Solved Text
+#-----------
+'DCCXXXIV + CCXXVI &divide; XVI x (II + III)' in Roman numerals translates 'to 734 + 226 / 16 x (2 + 3)' which, when calculated in the correct order (See BIDMAS or BODMAS), equals 12. When translated back into Roman numerals this is 'XII'.
+
+#----------------------------------------------------------------------------------
+#Puzzle 04
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+Five men walk into a sauna carrying a different item each:
+
+* Adam only brought his glasses
+* Ben brought a thermos flask
+* Charles brought an ipod
+* David brought a magazine
+* Ernest brought pencil and puzzle book
+
+The steam was so thick the men could barely see each other, this means nobody saw who killed Adam. When the police investigated they discovered:
+
+* Adam had been stabbed.
+* No weapon could be found.
+* The blood from the wound was usually thin.
+* None of the suspects or their items had blood on them.
+* Adam's glasses were broken.
+* Ben's flask was empty.
+* Charles couldn't turn on his ipod.
+* David's magazine was missing a few pages.
+* Ernest's pencil lost it's point
+
+<h3>How was Adam killed?</h3>
+<h6>Name the murder weapon not the method or murderer.</h6>
+
+#--------
+#Answer(s)
+#--------
+iceknife
+IceKnife
+ice knife
+Ice Knife
+
+#----
+#Hint
+#----
+This is cold blooded murder.
+
+#-----------
+#Solved Text
+#-----------
+Yes Ben had an ice knife in his flask, which then melted in the heat of the sauna leaving no evidence...besides the fact that Ben was the only person in the room that could have done it.
+
+#----------------------------------------------------------------------------------
+#Puzzle 05
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+Ceres is to Demeter what Diana is to ...?
+
+#--------
+#Answer(s)
+#--------
+artemis
+Artemis
+artemis
+Artemis
+
+#----
+#Hint
+#----
+God! It's all greek to me.
+
+#-----------
+#Solved Text
+#-----------
+Ceres and Demeter are the respective Roman and Greek names for the goddess of the harvest while Diana and Artemis are goddesses of the hunt. But you knew that.
+
+#----------------------------------------------------------------------------------
+#Puzzle 06
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+74776f2074696d657320666f72747920736576656e
+two times forty seven
+
+#---------
+#Answer(s)
+#---------
+6e696e65747920666f7572
+6e 69 6e 65 74 79 20 66 6f 75 72
+6E696E65747920666F7572
+6E 69 6E 65 74 79 20 66 6F 75 72
+#ninety four
+
+#----
+#Hint
+#----
+Is this some witch's hex?
+
+#-----------
+#Solved Text
+#-----------
+A simple hexadecimal to ASCII reveals the sum, 2 x 47. The answer, 94, then ('ninety four' not 94) translates back to 6e696e65747920666f7572.
+
+#----------------------------------------------------------------------------------
+#Puzzle 07
+#----------------------------------------------------------------------------------
+
+
+#------
+#Puzzle
+#------
+1, 5, 14, 30, 55, 91, 140, 204, ...?
+
+#---------
+#Answer(s)
+#---------
+285
+#Square pyramid numbers
+
+#----
+#Hint
+#----
+I wonder how many blocks are in those Egyptian pyramids?
+
+#-----------
+#Solved Text
+#-----------
+These are obviously square pyramid numbers.
+
+#----------------------------------------------------------------------------------
+#Puzzle 8
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+Which famous ruler was born here...<br>
+<img alt="Island" src="{{ site.data.web.baseurl }}/puzzle/img/isle1.png"><br>
+...and died here.<br>
+<img alt="Island" src="{{site.data.web.baseurl}}/puzzle/img/isle2.png">
+
+#---------
+#Answer(s)
+#---------
+napoleon
+Napoleon
+
+#----
+#Hint
+#----
+He was defeated at a train station by a boot.
+
+#-----------
+#Solved Text
+#-----------
+Yes, it was of course Napoleon Bonaparte, known for his short stature despite being average height at the time. This was most likely due to British propaganda.
+
+#----------------------------------------------------------------------------------
+#Puzzle 9
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+Mark compulsively lies on Monday, Tuesday and Wednesday yet speaks only truth the other days while John compulsively lies on Thursday, Friday and Saturday yet speaks only truth all other days. <br>One day Mark says to John:<br>'I was lying yesterday.'<br>Mark replied:<br>'So was I.'<br><br>What day was this said on?
+
+#---------
+#Answer(s)
+#---------
+thursday
+Thursday
+
+#----
+#Hint
+#----
+One of them is lying.
+
+#-----------
+#Solved Text
+#-----------
+It was, of course, Thursday hence John lied about lying the previous day.
+
+#----------------------------------------------------------------------------------
+#Puzzle 10
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+What do these two have in common?
+<br>
+<br>
+"/qvaamd/jnh/mjw.qoh"
+<br>
+<br>
+"2f 70 75 7a 7a 6c 65 2f 69 6d 67 2f 65 6c 65 2e 70 6e 67"
+
+#---------
+#Answer(s)
+#---------
+hannibal
+Hannibal
+
+#----
+#Hint
+#----
+Who do you associate with these clues?
+
+#-----------
+#Solved Text
+#-----------
+One was a Carthaginian general who marched elephants over the Alps and into Italy to fight Romans and was considered one of the best military commanders of all time. While the other is a fictional psychiatrist with an unfortunate craving for human flesh. 
+
+#----------------------------------------------------------------------------------
+#Puzzle 11
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+ym tsrif si ni elttil, tub ton ni dnatd.
+<br>
+1325 190503151404 0919 0914 060914070518, 022120 141520 0920 0218011404.
+<br>
+
+
+#---------
+#Answer(s)
+#---------
+light
+Light
+
+#----
+#Hint
+#----
+You have to be bright to get this.
+
+#-----------
+#Solved Text
+#-----------
+My first is in little, but not in stand.
+My second is in finger, but not in brand.
+My third is in big, but not in bite.
+My fourth in home, but not in mite.
+My fifth in think, but not in hide.
+My whole what you need, at night, inside.
+
+#----------------------------------------------------------------------------------
+#Puzzle 12
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+
+#---------
+#Answer(s)
+#---------
+
+#----
+#Hint
+#----
+
+#-----------
+#Solved Text
+#-----------
+
+#----------------------------------------------------------------------------------
+#Puzzle 13
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+
+#---------
+#Answer(s)
+#---------
+
+#----
+#Hint
+#----
+
+#-----------
+#Solved Text
+#-----------
+
+#----------------------------------------------------------------------------------
+#Puzzle 14
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+
+#---------
+#Answer(s)
+#---------
+
+#----
+#Hint
+#----
+
+#-----------
+#Solved Text
+#-----------
+
+#----------------------------------------------------------------------------------
+#Puzzle 15
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+
+#---------
+#Answer(s)
+#---------
+
+#----
+#Hint
+#----
+
+#-----------
+#Solved Text
+#-----------
+
+#----------------------------------------------------------------------------------
+#Puzzle 16
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+
+#---------
+#Answer(s)
+#---------
+
+#----
+#Hint
+#----
+
+#-----------
+#Solved Text
+#-----------
+
+#----------------------------------------------------------------------------------
+#Puzzle 17
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+
+#---------
+#Answer(s)
+#---------
+
+#----
+#Hint
+#----
+
+#-----------
+#Solved Text
+#-----------
+
+#----------------------------------------------------------------------------------
+#Puzzle 18
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+
+#---------
+#Answer(s)
+#---------
+
+#----
+#Hint
+#----
+
+#-----------
+#Solved Text
+#-----------
+
+#----------------------------------------------------------------------------------
+#Puzzle 19
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+
+#---------
+#Answer(s)
+#---------
+
+#----
+#Hint
+#----
+
+#-----------
+#Solved Text
+#-----------
+
+#----------------------------------------------------------------------------------
+#Puzzle 20
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+
+#---------
+#Answer(s)
+#---------
+
+#----
+#Hint
+#----
+
+#-----------
+#Solved Text
+#-----------
+
+#----------------------------------------------------------------------------------
+#Puzzle 21
+#----------------------------------------------------------------------------------
+
+#------
+#Puzzle
+#------
+
+#---------
+#Answer(s)
+#---------
+
+#----
+#Hint
+#----
+
+#-----------
+#Solved Text
+#-----------
+

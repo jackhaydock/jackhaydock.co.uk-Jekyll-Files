@@ -1,0 +1,13 @@
+title: Jack Haydock
+author: Jack Haydock
+description: A simple showcase site
+
+highlighter: null
+permalink: /posts/:year/:title
+
+url: "http://www.jackhaydock.co.uk" 
+baseurl: ""
+
+sass:
+  sass_dir: public/css
+  style: :compressed

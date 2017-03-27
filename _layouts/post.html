@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<article class="single row gutters">
+
+  <time class="published" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date_to_long_string }}</time>
+
+  <h2>{{ page.title }}</h2>
+
+   {{ content }}
+
+<h5>Share this page</h5>
+
+<a href=
+'http://twitter.com/share?url=
+{{ site.data.web.url }}{{ page.url }}&text={{ page.title }}'
+target="_blank"
+class='button'>
+<img src="/public/images/twitter.png" alt="Twitter"
+height=50px width=50px>
+</a>
+
+<a href=
+"https://www.facebook.com/sharer/sharer.php?u=
+{{site.data.web.url}}{{ page.url }}"
+target="_blank">
+<img src="/public/images/facebook.png" alt="Facebook"
+height=50px width=50px>
+</a>
+
+<a href=
+"https://plus.google.com/share?url=
+{{site.data.web.url}}{{ page.url }}"
+target="_blank">
+<img src="/public/images/google.png" alt="Google+"
+height=50px width=50px>
+</a>
+
+<h2> Comments </h2>
+Don't be too mean...please?
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//jackhaydock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+</article>
+                                

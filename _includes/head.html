@@ -1,0 +1,39 @@
+<!-- meta information -->
+<meta charset="utf-8">
+<meta name="description" {% if page.title == "Home" %}
+      content="{{ site.data.web.description }}" {% else %}
+      content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" {% endif %}>
+<meta name="author" content="{{ site.data.web.author }}">
+
+<!-- Twitter Meta -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@JWHaydock"/>
+<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}"/>
+<meta name="twitter:title" content="{{ page.title }}"/>
+<meta name="twitter:image" content="{{ site.data.web.url }}{{ page.image }}"/>
+<meta name="twitter:domain" content="{{ site.data.web.url }}{{ page.url }}"/>
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<!-- title -->
+<title>{{ page.title }} &middot; Jack Haydock</title>
+
+<!-- icons -->
+<link rel="shortcut icon" href="{{site.data.web.baseurl}}/public/images/favicon.ico" />
+
+<!-- stylesheets -->
+<link rel="stylesheet" href="{{site.data.web.baseurl}}/public/css/responsive.gs.12col.css">
+<link rel="stylesheet" href="{{site.data.web.baseurl}}/public/css/animate.min.css">
+<link rel="stylesheet" href="{{site.data.web.baseurl}}/public/css/main.css">
+
+<!-- Google fonts -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&subset=latin-ext">
+
+{% if site.paginate %}
+<!-- font Awesome -->
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+{% endif %}
+
+<!-- feed links -->
+<link rel="alternate" href="{{ site.data.web.url }}{{ site.data.web.baseurl }}/feed.xml" type="application/rss+xml" title="{{ site.name }}">
