@@ -6,9 +6,108 @@
     <atom:link href="http://www.jackhaydock.co.uk/feed.xml" rel="self" type="application/rss+xml" />
     <description>A simple showcase site</description>
     <language>en-us</language>
-    <pubDate>Mon, 08 May 2017 12:20:26 +0100</pubDate>
-    <lastBuildDate>Mon, 08 May 2017 12:20:26 +0100</lastBuildDate>
+    <pubDate>Tue, 09 May 2017 20:04:01 +0100</pubDate>
+    <lastBuildDate>Tue, 09 May 2017 20:04:01 +0100</lastBuildDate>
 
+    
+      <item>
+        <title>Pong!</title>
+        <link>http://www.jackhaydock.co.uk/posts/2017/pong</link>
+        <pubDate>Tue, 09 May 2017 00:00:00 +0100</pubDate>
+        <author>Jack Haydock</author>
+        <description>&lt;h4 id=&quot;version-alpha-10&quot;&gt;Version: Alpha 1.0&lt;/h4&gt;
+
+&lt;iframe src=&quot;/public/projects/pong/alpha_1.0/index.html&quot; style=&quot;border:0px #000000 none;&quot; name=&quot;Pong&quot; scrolling=&quot;no&quot; height=&quot;600px&quot; width=&quot;960px&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;controls&quot;&gt;Controls:&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Left Player&lt;/th&gt;
+      &lt;th&gt;Right Player&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Up&lt;/td&gt;
+      &lt;td&gt;W&lt;/td&gt;
+      &lt;td&gt;Up Arrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Down&lt;/td&gt;
+      &lt;td&gt;S&lt;/td&gt;
+      &lt;td&gt;Down Arrow&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary:&lt;/h3&gt;
+
+&lt;p&gt;After a long hiatus, I decided to return to Unity development and intend to finish my first Unity game, “Totally Original game not to too dissimilar to the 1972 classic, ‘Pong’”. Or TOGNTTDTT1972CP for short…let’s just call it Pong.&lt;/p&gt;
+
+&lt;p&gt;It is a multi-player game so grab a friend, enemy or that confused stranger in the street, you could also play with two hands like I do, I’m lonely.&lt;/p&gt;
+
+&lt;p&gt;If you’ve lived under a rock for the last 45 years, Pong is a greatly simplified version of tennis. Your only objective is too get the ball past your opponent and off the opposite side of the screen.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;downloads&quot;&gt;Downloads:&lt;/h3&gt;
+&lt;p&gt;Click one of the icons to download this build for the respective platform.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/projects/pong/alpha_1.0/downloads/Pong_alpha_1.0_Win.7z&quot; download=&quot;&quot;&gt;
+&lt;img src=&quot;/public/images/win50.png&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/public/projects/pong/alpha_1.0/downloads/Pong_alpha_1.0_Linux.7z&quot; download=&quot;&quot;&gt;
+&lt;img src=&quot;/public/images/Lin50.png&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/public/projects/pong/alpha_1.0/downloads/Pong_alpha_1.0_HTML.7z&quot; download=&quot;&quot;&gt;
+&lt;img src=&quot;/public/images/html50.png&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;notes&quot;&gt;Notes:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Exporting audio into a WebGL build requires a whole different process so that will come later, for now if you want audio (I recommend it, there’s a great royalty-free track by Kevin MacLeod) you’ll have to download one of the Linux/Windows Builds.&lt;/li&gt;
+  &lt;li&gt;Once I am happy that this game is complete and tidy, I intend to create a more original version of Pong with extra gamemodes and new features absent from the original Pong.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;planned-updates&quot;&gt;Planned updates:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Properly reseting paddles when rest button is used&lt;/li&gt;
+  &lt;li&gt;Pause button&lt;/li&gt;
+  &lt;li&gt;Audio options&lt;/li&gt;
+  &lt;li&gt;Visual Countdown timer on serve&lt;/li&gt;
+  &lt;li&gt;Adjustable resolution&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;license&quot;&gt;License&lt;/h3&gt;
+
+&lt;p&gt;If you’re mad enough to want to use this product on your own site, you are welcome to. Just be nice enough to let me know and give credit if you can.&lt;/p&gt;
+
+&lt;p&gt;All assets used in this product are under Creative Commons, Public Domain or of my own creation.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;changelog&quot;&gt;Changelog&lt;/h3&gt;
+
+&lt;h4 id=&quot;alpha-10&quot;&gt;Alpha 1.0&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Initial Release&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+      </item>
     
       <item>
         <title>Happy Lupercalia!</title>
@@ -203,23 +302,6 @@ discover it to be a game you don’t want or already have, please gift it to som
   &lt;li&gt;&lt;a href=&quot;https://support.ubi.com/en-GB/Faqs/000021992&quot;&gt;How to redeem Uplay codes&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://help.ea.com/en-gb/help/origin/origin/origin-code-redemption-faq/&quot;&gt;How to redeem Origin codes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Happy New Year!</title>
-        <link>http://www.jackhaydock.co.uk/posts/2017/new-year</link>
-        <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-        <author>Jack Haydock</author>
-        <description>&lt;p&gt;…well at least have a better one than 2016.&lt;/p&gt;
-
-&lt;p&gt;This one was a bit rushed so there are a few problems such as inconsistent shading and lack of detailing, but otherwise I am still pleased with it.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/TUG-2017.png&quot;&gt;
-&lt;img src=&quot;/public/post-images/2017/TUG-2017.png&quot; alt=&quot;Happy New Year&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
 </description>
       </item>
     

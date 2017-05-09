@@ -55,6 +55,7 @@ img {
   height: auto;
   border: none;
   outline: none;
+  margin-bottom: 0px;
 }
 
 a {
@@ -112,6 +113,7 @@ footer {
 }
 
 /*============================================================================*/
+
 .azul { a { color: $azul-accent-color;
     &:hover { color: #0070bb;
 }}}
@@ -137,12 +139,12 @@ footer {
 }}}
 
 
-
+/*============================================================================*/
 
 #postlink {
 color: #333;
+margin-bottom: 20px;
 }
-
 
 /*----------------------------------------------------------------------------*/
 
@@ -268,12 +270,20 @@ dl,
 
 /*============================================================================*/
 @media screen and (max-width: 767px) {
-  .top-navbar {
-    height: 35px;
-    text-align: center;
-    margin-top: 40px;
+
+ * {
+   text-align:center;
+ }
+
+   .top-navbar {
+      height: 50px;
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
 
     a {
+      font-size: 11px;
+      font-weight: bold;
       padding: 5px 10px;
       margin: 5px;
       border-radius: 0;
