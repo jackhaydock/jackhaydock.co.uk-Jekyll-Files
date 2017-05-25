@@ -5,12 +5,13 @@
 
 # Changelog
 
-### 12/05/2017 (Puzzle Update)
+### 25/05/2017 (Puzzle Update)
 * Minor CSS changes to navbar in mobile mode (extended bottom margin)
 * 404 page text shrinks on mobile screens to fit email on screen
 * Added the puzzle gauntlet (22 pages under /puzzle/ and a layout+include page)
 * Added github link to footer
-* Project postlinks now show version
+* Project postlinks now show project version
+* Project version is now declared in front matter
 * Added CC license to images
 
 ### 09/05/2017 (Projects)
