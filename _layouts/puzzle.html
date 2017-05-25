@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<article class="single row gutters">
+  <h2>{{ page.heading }}</h2>
+	
+  <h3>{{ page.title }}</h3>
+  {{ content }}
+  {% include puzzle.html %}
+<br>
+<br>
+  {% include comments.html %}
+</article>

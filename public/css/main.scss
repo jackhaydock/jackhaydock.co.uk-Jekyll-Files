@@ -1,7 +1,7 @@
 ---
 ---
-
 @import 'syntax';
+
 
 $site-background-color: #f5f5f5;
 $contrast-color: #333;
@@ -267,9 +267,16 @@ dl,
   background-position: left center;
   background-repeat: no-repeat;
 }
-
 /*============================================================================*/
 @media screen and (max-width: 767px) {
+
+  #logo {
+    background-position: center center;
+  }
+
+  #error {
+    font-size: 17px;
+  }
 
  * {
    text-align:center;
@@ -279,10 +286,10 @@ dl,
       height: 50px;
       text-align: center;
       margin-top: 5px;
-      margin-bottom: 5px;
+      margin-bottom: 25px;
 
     a {
-      font-size: 11px;
+      font-size: 12px;
       font-weight: bold;
       padding: 5px 10px;
       margin: 5px;
@@ -305,8 +312,5 @@ dl,
     margin-bottom: 30px;
   }
 
-  #logo {
-    background-position: center center;
-  }
 }
 

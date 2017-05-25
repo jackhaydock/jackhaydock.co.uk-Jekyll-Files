@@ -2,12 +2,23 @@
 
 * Add contact form if possible with static (possibly linked to e-mail)
 * Add dividers between posts
-* Create image for 404 screen
-* Finish Puzzle Gauntlet
-* Create Projects page for games/software
-
 
 # Changelog
+
+### 12/05/2017 (Puzzle Update)
+* Minor CSS changes to navbar in mobile mode (extended bottom margin)
+* 404 page text shrinks on mobile screens to fit email on screen
+* Added the puzzle gauntlet (22 pages under /puzzle/ and a layout+include page)
+* Added github link to footer
+* Project postlinks now show version
+* Added CC license to images
+
+### 09/05/2017 (Projects)
+* Added Projects page and first entry
+* Posts are separated into categories (Currently 'art' and 'project') and displayed on separate pages
+* Posts are divided by category as well as year, this should have no visual effect except the first post on each page will have divider ragardless of date
+* Minor CSS changes to mobile layout
+* Secret on 404 page ;) 
 
 ### 07/05/2017
 * Rearranged pages (Home->Art and About->Home)

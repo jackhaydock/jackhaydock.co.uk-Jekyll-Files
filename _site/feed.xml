@@ -6,8 +6,8 @@
     <atom:link href="http://www.jackhaydock.co.uk/feed.xml" rel="self" type="application/rss+xml" />
     <description>A simple showcase site</description>
     <language>en-us</language>
-    <pubDate>Tue, 09 May 2017 20:18:00 +0100</pubDate>
-    <lastBuildDate>Tue, 09 May 2017 20:18:00 +0100</lastBuildDate>
+    <pubDate>Thu, 25 May 2017 12:00:43 +0100</pubDate>
+    <lastBuildDate>Thu, 25 May 2017 12:00:43 +0100</lastBuildDate>
 
     
       <item>
@@ -82,7 +82,7 @@
 
 &lt;h3 id=&quot;planned-updates&quot;&gt;Planned updates:&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;Properly reseting paddles when rest button is used&lt;/li&gt;
+  &lt;li&gt;Properly reseting paddles when reset button is used&lt;/li&gt;
   &lt;li&gt;Pause button&lt;/li&gt;
   &lt;li&gt;Audio options&lt;/li&gt;
   &lt;li&gt;Visual Countdown timer on serve&lt;/li&gt;
@@ -91,9 +91,9 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;license&quot;&gt;License&lt;/h3&gt;
+&lt;h3 id=&quot;permissions&quot;&gt;Permissions&lt;/h3&gt;
 
-&lt;p&gt;If you’re mad enough to want to use this product on your own site, you are welcome to. Just be nice enough to let me know and give credit if you can.&lt;/p&gt;
+&lt;p&gt;If you’re mad enough to want to use this product on your own site, you are welcome to. Just be nice enough to let me know and give credit.&lt;/p&gt;
 
 &lt;p&gt;All assets used in this product are under Creative Commons, Public Domain or of my own creation.&lt;/p&gt;
 
@@ -103,7 +103,8 @@
 
 &lt;h4 id=&quot;alpha-10&quot;&gt;Alpha 1.0&lt;/h4&gt;
 &lt;ul&gt;
-  &lt;li&gt;Initial Release&lt;/li&gt;
+  &lt;li&gt;Initial Release
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -127,7 +128,7 @@
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
-
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
 </description>
       </item>
     
@@ -145,7 +146,7 @@
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
-
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
 </description>
       </item>
     
@@ -169,6 +170,7 @@
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
 
 </description>
       </item>
@@ -189,7 +191,7 @@
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
-
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
 </description>
       </item>
     
@@ -205,7 +207,7 @@
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
-
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
 </description>
       </item>
     
@@ -229,6 +231,7 @@
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
 
 </description>
       </item>
@@ -245,6 +248,7 @@
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
 
 </description>
       </item>
@@ -273,6 +277,7 @@
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
 </description>
       </item>
     
