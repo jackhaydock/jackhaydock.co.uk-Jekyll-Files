@@ -6,9 +6,141 @@
     <atom:link href="http://www.jackhaydock.co.uk/feed.xml" rel="self" type="application/rss+xml" />
     <description>A simple showcase site</description>
     <language>en-us</language>
-    <pubDate>Thu, 25 May 2017 12:04:46 +0100</pubDate>
-    <lastBuildDate>Thu, 25 May 2017 12:04:46 +0100</lastBuildDate>
+    <pubDate>Sun, 04 Jun 2017 13:52:41 +0100</pubDate>
+    <lastBuildDate>Sun, 04 Jun 2017 13:52:41 +0100</lastBuildDate>
 
+    
+      <item>
+        <title>Pong</title>
+        <link>http://www.jackhaydock.co.uk/posts/2017/pong1-1</link>
+        <pubDate>Sun, 04 Jun 2017 00:00:00 +0100</pubDate>
+        <author>Jack Haydock</author>
+        <description>&lt;h4 id=&quot;version-alpha-11&quot;&gt;Version: Alpha 1.1&lt;/h4&gt;
+
+&lt;iframe src=&quot;/public/projects/pong/alpha_1.1/index.html&quot; style=&quot;border:0px #000000 none;&quot; name=&quot;Pong&quot; scrolling=&quot;no&quot; height=&quot;450px&quot; width=&quot;800px&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;controls&quot;&gt;Controls:&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt;Left Player&lt;/th&gt;
+      &lt;th&gt;Right Player&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Up&lt;/td&gt;
+      &lt;td&gt;W&lt;/td&gt;
+      &lt;td&gt;Up Arrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Down&lt;/td&gt;
+      &lt;td&gt;S&lt;/td&gt;
+      &lt;td&gt;Down Arrow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pause&lt;/td&gt;
+      &lt;td&gt;Esc&lt;/td&gt;
+      &lt;td&gt;Esc&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Reset&lt;/td&gt;
+      &lt;td&gt;R&lt;/td&gt;
+      &lt;td&gt;R&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;You can also use the mouse with the menu in the top right to Pause, Reset, Mute and Quit. Be aware there is no ‘Are you sure?’ warnings for Reset or Quit just yet.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary:&lt;/h3&gt;
+
+&lt;p&gt;This is “Totally Original game not to too dissimilar to the 1972 classic, ‘Pong’”. Or TOGNTTDTT1972CP for short…let’s just call it Pong.&lt;/p&gt;
+
+&lt;p&gt;It is a multi-player game so grab a friend, enemy or that confused stranger in the street, you could also play with two hands like I do, I’m lonely.&lt;/p&gt;
+
+&lt;p&gt;If you’ve lived under a rock for the last 45 years, Pong is a greatly simplified version of tennis. Your only objective is to get the ball past your opponent and off the opposite side of the screen, and to do it more often than your opponent.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;downloads&quot;&gt;Downloads:&lt;/h3&gt;
+&lt;p&gt;Click to download this build for the following platforms.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/projects/pong/alpha_1.1/downloads/Pong_alpha_1.1_Win.7z&quot; download=&quot;&quot;&gt;
+Windows
+&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/public/projects/pong/alpha_1.1/downloads/Pong_alpha_1.1_Linux.7z&quot; download=&quot;&quot;&gt;
+Linux
+&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;/public/projects/pong/alpha_1.1/downloads/Pong_alpha_1.1_HTML.7z&quot; download=&quot;&quot;&gt;
+HTML/WebGL
+&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;notes&quot;&gt;Notes:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Exporting audio into a WebGL build requires a whole different process so that will come later, for now if you want audio (I recommend it, there’s a great royalty-free track by Kevin MacLeod) you’ll have to download one of the Linux/Windows Builds.&lt;/li&gt;
+  &lt;li&gt;Once I am happy that this game is complete and tidy, I intend to create a more original version of Pong with extra gamemodes and new features absent from the original Pong.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;planned-updates&quot;&gt;Planned updates:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;More Audio options (eg. Pause/Play, Multiple tracks, mute music/sfx separately)&lt;/li&gt;
+  &lt;li&gt;Adjustable resolution for HTML&lt;/li&gt;
+  &lt;li&gt;Adjustable resolution without restart&lt;/li&gt;
+  &lt;li&gt;Improve Menu interface&lt;/li&gt;
+  &lt;li&gt;Improved visuals&lt;/li&gt;
+  &lt;li&gt;Audio for WebGL&lt;/li&gt;
+  &lt;li&gt;Fix bug where ball occasionally flies offscreen at high speed&lt;/li&gt;
+  &lt;li&gt;Add singleplayer mode against AI player&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;permissions&quot;&gt;Permissions&lt;/h3&gt;
+
+&lt;p&gt;If you’re mad enough to want to use this product on your own site, you are welcome to. Just be nice enough to let me know and give credit.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;credits&quot;&gt;Credits&lt;/h3&gt;
+
+&lt;p&gt;All assets used in this product are under Creative Commons, Public Domain or of my own creation.&lt;/p&gt;
+
+&lt;p&gt;“Voice Over Under”&lt;br /&gt;
+Kevin MacLeod (incompetech.com)&lt;br /&gt;
+Licensed under Creative Commons: By Attribution 3.0
+http://creativecommons.org/licenses/by/3.0/&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;changelog&quot;&gt;Changelog&lt;/h3&gt;
+
+&lt;h4 id=&quot;alpha-11&quot;&gt;Alpha 1.1&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Paddles reset when button pressed&lt;/li&gt;
+  &lt;li&gt;Added toggle menu with: Pause/Play, Reset, Mute/Unmute and Quit Options&lt;/li&gt;
+  &lt;li&gt;Added countdown timer on serve&lt;/li&gt;
+  &lt;li&gt;Tidied up code with some extra comments&lt;/li&gt;
+  &lt;li&gt;Ball now starts at center (after slight delay)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;alpha-10&quot;&gt;Alpha 1.0&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Initial Release
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+      </item>
     
       <item>
         <title>Pong!</title>
@@ -278,35 +410,6 @@
 
 &lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
 &lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Secret Codes?</title>
-        <link>http://www.jackhaydock.co.uk/posts/2017/info</link>
-        <pubDate>Wed, 04 Jan 2017 00:00:00 +0000</pubDate>
-        <author>Jack Haydock</author>
-        <description>&lt;p&gt;To anyone who has noticed alpha-numeric codes poorly hidden in the images, they are steam (sometimes Uplay or Origin) codes for games I am giving away. I have too many unredeemed games, usually through humble bundles,
-and have decided, instead of just leaving them unclaimed or tediously trying to figure out who would be best to give them to, to just give them away as rewards for people who pay attention to my work (yes I’m that desperate for attention).&lt;/p&gt;
-
-&lt;p&gt;So long as I have spare keys for games I don’t want or already have, I will hide a code in an image of every post I publish and the first person the find and claim it gets the game. A post with multiple images will likely only have one code unless specified otherwise. Most codes will be for 
-&lt;a href=&quot;http://store.steampowered.com/&quot;&gt;Steam&lt;/a&gt;, though if it doesn’t work try &lt;a href=&quot;https://uplay.ubi.com/&quot;&gt;Uplay&lt;/a&gt; or &lt;a href=&quot;https://www.origin.com&quot;&gt;Origin&lt;/a&gt;. If none of those work, the game may have already been claimed. If you find a code and
-discover it to be a game you don’t want or already have, please gift it to someone or just don’t claim it and let someone else find it, don’t be greedy! or I’ll set the cat on you, don’t be fooled by his cuteness, he will kill you!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/ballcat.png&quot;&gt;
-&lt;img src=&quot;/public/post-images/2017/ballcat.png&quot; alt=&quot;Kitten!&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
-
-&lt;h6 id=&quot;ps-there-is-no-code-in-this-image-ironically-i-forgot-to-include-one-on-the-page-about-the-codes&quot;&gt;P.S. There is no code in this image, ironically I forgot to include one on the page about the codes.&lt;/h6&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://support.steampowered.com/kb_article.php?ref=5414-TFBN-1352&quot;&gt;How to redeem steam codes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://support.steampowered.com/kb_article.php?p_faqid=549#gifts-whatare&quot;&gt;How to gift games on steam&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://support.ubi.com/en-GB/Faqs/000021992&quot;&gt;How to redeem Uplay codes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://help.ea.com/en-gb/help/origin/origin/origin-code-redemption-faq/&quot;&gt;How to redeem Origin codes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
       </item>
     

@@ -5,7 +5,10 @@
 
 # Changelog
 
-### 25/05/207(2)
+### 04/06/2017
+* Pong Alpha 1.1
+
+### 25/05/2017(2)
 * Added extra joke reponses for puzzles
 
 ### 25/05/2017 (Puzzle Update)

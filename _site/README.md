@@ -5,6 +5,9 @@
 
 # Changelog
 
+### 25/05/207(2)
+* Added extra joke reponses for puzzles
+
 ### 25/05/2017 (Puzzle Update)
 * Minor CSS changes to navbar in mobile mode (extended bottom margin)
 * 404 page text shrinks on mobile screens to fit email on screen
