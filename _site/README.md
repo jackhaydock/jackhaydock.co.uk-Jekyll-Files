@@ -1,12 +1,16 @@
 # TODO list
-
-* Add contact form if possible with static (possibly linked to e-mail)
+* Add contact form
 * Add dividers between posts
+* Fix twitter card for pages that don't have {{page.image}}
 
 # Changelog
 
+### 09/06/2017
+* Pong 0.25
+* Home page twitter card uses logo as image
+
 ### 04/06/2017
-* Pong Alpha 1.1
+* Pong 0.2
 
 ### 25/05/2017(2)
 * Added extra joke reponses for puzzles
