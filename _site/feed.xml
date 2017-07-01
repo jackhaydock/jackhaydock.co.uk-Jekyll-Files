@@ -6,9 +6,38 @@
     <atom:link href="http://www.jackhaydock.co.uk/feed.xml" rel="self" type="application/rss+xml" />
     <description>A simple showcase site</description>
     <language>en-us</language>
-    <pubDate>Fri, 09 Jun 2017 08:36:11 +0100</pubDate>
-    <lastBuildDate>Fri, 09 Jun 2017 08:36:11 +0100</lastBuildDate>
+    <pubDate>Sat, 01 Jul 2017 11:21:23 +0100</pubDate>
+    <lastBuildDate>Sat, 01 Jul 2017 11:21:23 +0100</lastBuildDate>
 
+    
+      <item>
+        <title>Puzzle Gauntlet</title>
+        <link>http://www.jackhaydock.co.uk/posts/2017/puzzle</link>
+        <pubDate>Sat, 01 Jul 2017 00:00:00 +0100</pubDate>
+        <author>Jack Haydock</author>
+        <description>&lt;p&gt;I decided to have a bit of fun and set up a gauntlet of puzzles for anyone to enjoy. The format is simple, each page will contain a puzzle that, once solved, will reveal a clue and a link to the next puzzle. Once you’ve solved all the puzzles, the clues will form a final puzzle. You will not be reshown the clues so be sure to note them down.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/puzzle/01/&quot;&gt;
+Click here to Start.
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+</description>
+      </item>
+    
+      <item>
+        <title>New Blog</title>
+        <link>http://www.jackhaydock.co.uk/posts/2017/blog1</link>
+        <pubDate>Mon, 26 Jun 2017 00:00:00 +0100</pubDate>
+        <author>Jack Haydock</author>
+        <description>&lt;p&gt;I have created this third blog feed for no specific reason. I just felt that if I wished to create any posts that didn’t fit the others, I might as well have this feed, especially if there’s a spur-of-the-moment thing or an idea so small it shouldn’t require it’s own dedicated feed.&lt;/p&gt;
+
+&lt;p&gt;There are many things that could go here such as reviews, challenges or just anything I want to say but, for whatever reason, decide not to put it on a website that people actually use. If you want something posted here or have an idea of what I could put here or elsewhere on the site let me know (Contacts in footer).&lt;/p&gt;
+
+</description>
+      </item>
     
       <item>
         <title>Pong (Web Audio Fix)</title>
@@ -494,48 +523,6 @@ HTML/WebGL
 
 &lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
 &lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
-</description>
-      </item>
-    
-      <item>
-        <title>Killer Rabbit</title>
-        <link>http://www.jackhaydock.co.uk/posts/2017/killerabbit</link>
-        <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
-        <author>Jack Haydock</author>
-        <description>&lt;p&gt;There’s a somewhat morbid charm to cute things being violent. No story or purpose behind this one, just thought it would be fun.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/Rabbit01-code.png&quot;&gt;
-&lt;img src=&quot;/public/post-images/2017/Rabbit01-code.png&quot; alt=&quot;Bloody Rabbit!&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/Rabbit02.png&quot;&gt;
-&lt;img src=&quot;/public/post-images/2017/Rabbit02.png&quot; alt=&quot;Bloody Rabbit!&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/Rabbit03.png&quot;&gt;
-&lt;img src=&quot;/public/post-images/2017/Rabbit03.png&quot; alt=&quot;Cute Rabbit&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
-&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-      </item>
-    
-      <item>
-        <title>Internal Combustion Penguin</title>
-        <link>http://www.jackhaydock.co.uk/posts/2017/ICP</link>
-        <pubDate>Tue, 17 Jan 2017 00:00:00 +0000</pubDate>
-        <author>Jack Haydock</author>
-        <description>&lt;p&gt;This one is based on a pun a friend of mine made, I liked it so much I made a quick image to match it. This was made very quickly, by my standards, so there’s is not much to it. I may revisit it to add backgrounds or other features later.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/ICP-code.png&quot;&gt;
-&lt;img src=&quot;/public/post-images/2017/ICP-code.png&quot; alt=&quot;Internal Combustion Penguin!&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
-&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
-
 </description>
       </item>
     

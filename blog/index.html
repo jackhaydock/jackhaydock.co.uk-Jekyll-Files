@@ -1,0 +1,34 @@
+---
+layout: default
+title: Blog
+---
+
+I'm not sure what I'll put here but I felt like creating this feed, just in case I need it.
+
+<div class="bundle row gutters fadeInDown animated">
+
+<section class="archive">
+{% for post in site.categories.blog %}
+
+<!--Post Links -->
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a id="postlink" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">
+<strong>
+{{ post.title }} 
+</strong>
+	<br>
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B %Y" }}</time>
+    </div>
+<img src={{ post.image }} alt='{{ post.title }}'>
+</a>
+    
+
+
+  </article>
+
+{% if forloop.last %}</div></div>{% endif %}
+
+{% endfor %}
+</section>

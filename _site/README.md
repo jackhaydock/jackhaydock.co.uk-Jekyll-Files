@@ -1,9 +1,15 @@
 # TODO list
 * Add contact form
-* Add dividers between posts
 * Fix twitter card for pages that don't have {{page.image}}
 
 # Changelog
+
+### 01/07/2017
+* Removed the 'Sort by year(and/or category)' system for blog feeds.
+* Added generic blog feed, it's exact purpose is still to be decided
+* Attempted fix for social media cards of none image pages 
+* Moved CV to Home page and removed navbar link
+* Moved Puzzle Gauntlet to Misc feed and removed navbarlink
 
 ### 09/06/2017
 * Pong 0.25
