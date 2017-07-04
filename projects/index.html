@@ -19,6 +19,8 @@ On this feed I will post my complete and near complete projects as well as attem
 {{ post.title }} 
 </strong>
 	<br>
+	Version: {{post.version}}
+	<br>
       <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B %Y" }}</time>
     </div>
 <img src={{ post.image }} alt='{{ post.title }}'>
@@ -29,8 +31,3 @@ On this feed I will post my complete and near complete projects as well as attem
 
 {% endfor %}
 </section>
-
-<!--
-	<br>
-	Version: {{post.version}}
--->
