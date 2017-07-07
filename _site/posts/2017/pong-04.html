@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- meta information -->
+<meta charset="utf-8">
+<meta name="description" 
+
+      content="Version: 0.4Click here to play in new tab/window. Useful for resizing the game.Controls                   Left Player..." 
+>
+<meta name="author" content="Jack Haydock">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Pong (AI Update)"
+<meta property="og:description" content="Version: 0.4Click here to play in new tab/window. Useful for resizing the game.Controls                   Left Player..."
+<meta property="og:image"
+
+	content="http://www.jackhaydock.co.uk/public/images/logo.png"
+>
+
+<!-- Twitter Meta -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@JWHaydock"/>
+<meta name="twitter:description" content="Version: 0.4Click here to play in new tab/window. Useful for resizing the game.Controls                   Left Player..."/>
+<meta name="twitter:title" content="Pong (AI Update)"/>
+<meta name="twitter:image" 
+
+	content="http://www.jackhaydock.co.uk/public/images/logo.png"
+>
+<meta name="twitter:domain" content="http://www.jackhaydock.co.uk/posts/2017/pong-04"/>
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<!-- title -->
+<title>Pong (AI Update) &middot; Jack Haydock</title>
+
+<!-- icons -->
+<link rel="shortcut icon" href="/public/images/favicon.ico" />
+
+<!-- stylesheets -->
+<link rel="stylesheet" href="/public/css/responsive.gs.12col.css">
+<link rel="stylesheet" href="/public/css/animate.min.css">
+<link rel="stylesheet" href="/public/css/main.css">
+
+<!-- Google fonts -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&subset=latin-ext">
+
+
+
+<!-- feed links -->
+<link rel="alternate" href="http://www.jackhaydock.co.uk/feed.xml" type="application/rss+xml" title="">
+
+
+  </head>
+  <body>
+
+      <div class="container azul">
+
+      <header class="top row gutters">
+
+        <div class="col span_2 center">
+          <!-- TODO: add baseurl to the logo link -->
+          <a href="/" id="logo" title="Jack Haydock"
+             style="background-image: url(/public/images/logo.png);"></a>
+        </div><nav class="col span_10 top-navbar">
+
+  
+
+  <a href="/" title="Home"
+     >Home</a>
+  
+
+  <a href="/projects/" title="Projects"
+     >Projects</a>
+  
+
+  <a href="/art/" title="Art"
+     >Art</a>
+  
+
+  <a href="/blog/" title="Misc"
+     >Misc</a>
+  
+</nav>
+
+
+      </header>
+
+      <article class="single row gutters">
+
+  <time class="published" datetime="2017-07-07">07 July 2017</time>
+
+  <h2>Pong (AI Update)</h2>
+
+   <h3 id="version-04">Version: 0.4</h3>
+
+<iframe src="/public/projects/pong/0.4/index.html" style="border:0px #000000 none;" name="Pong" scrolling="no" height="360px" width="710px"></iframe>
+
+<p><br /></p>
+
+<p>Click <a href="/public/projects/pong/0.4/index.html" target="blank">here</a> to play in new tab/window. Useful for resizing the game.</p>
+
+<h3 id="controls">Controls</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>Left Player</th>
+      <th>Right Player</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Up</td>
+      <td>W</td>
+      <td>Up Arrow</td>
+    </tr>
+    <tr>
+      <td>Down</td>
+      <td>S</td>
+      <td>Down Arrow</td>
+    </tr>
+    <tr>
+      <td>Pause</td>
+      <td>Esc</td>
+      <td>Esc</td>
+    </tr>
+    <tr>
+      <td>Reset</td>
+      <td>R</td>
+      <td>R</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Menus are mouse entirely controlled.</p>
+
+<p><br /></p>
+
+<h3 id="summary">Summary</h3>
+
+<p>This is “Totally Original game not to too dissimilar to the 1972 classic, Pong”. Or TOGNTTDTT1972CP for short…let’s just call it Pong.</p>
+
+<p>If you’ve lived under a rock for the last 45 years, Pong is a greatly simplified version of tennis. Your only objective is to get the ball past your opponent and off the opposite side of the screen, and to do it more often than your opponent.</p>
+
+<p>There are both Singleplayer and Multiplayer modes, so you can play against an AI, against yourself or the guy you locked in the basement.</p>
+
+<p><br /></p>
+
+<h3 id="downloads">Downloads</h3>
+
+<p>To run the the game, simply extract the .zips below and double click on the executable file. (Pong.exe, Pong.x86, Pong.x86_64 or Index.HTML). No install wizards needed just yet.</p>
+
+<p><a href="/public/projects/pong/0.4/downloads/Pong_04_Win.zip" download="">
+Windows
+</a><br />
+<a href="/public/projects/pong/0.4/downloads/Pong_04_Linux.zip" download="">
+Linux
+</a><br />
+<a href="/public/projects/pong/0.4/downloads/Pong_04_HTML.zip" download="">
+HTML/WebGL
+</a><br />
+<br /></p>
+
+<h3 id="notes">Notes</h3>
+<ul>
+  <li>This game is optimized for 16:9 aspect ratios. While it should work on most aspect ratios, UI elements may overlap or be cut off by the windows with extreme ratios, especially on small screens.</li>
+</ul>
+
+<p><br /></p>
+
+<h3 id="update-summary">Update Summary</h3>
+
+<h4 id="version-04-1">Version: 0.4</h4>
+
+<p>This was much simpler than I thought it would be. The AI is still very simple, it simply follows the ball whenever it crosses into the right half of the screen. The difficulty simply sets how far away the ball is allowed to go before the paddle moves, I would like to improve this by having the lower difficulties make mistakes and maybe allowing higher difficulties to move even before the ball enters their side of the screen.</p>
+
+<p>I also replaced the track buttons with a single left/right type selector, not only allowing room for the track name but effectively allowing potentially infinite tracks with no extra screen space being used.</p>
+
+<p><br /></p>
+
+<h3 id="planned-updates">Planned updates</h3>
+<ul>
+  <li>Improved visuals (eg. backgrounds, more than two colours etc.)</li>
+  <li>Tooltips when hovering over menu buttons</li>
+  <li>Drop-down menu of preset resolutions for options page</li>
+  <li>Fix bug where ball occasionally flies offscreen at high speed</li>
+  <li>Add more gamemodes (Ie. AI, rotating paddles, multi-ball, timed, score-limit etc.)</li>
+  <li>Lower default volumes</li>
+  <li>Smoother/More random AI</li>
+  <li>Keyboard controls for menus</li>
+  <li>Fix hit audio pitch</li>
+  <li>Start Compressing files to reduce overall size, at least with the WebGL version</li>
+</ul>
+
+<p><br /></p>
+
+<h3 id="permissions">Permissions</h3>
+
+<p>If you’re mad enough to want to use this product on your own site, you are welcome to. Just be nice enough to let me know and give credit.</p>
+
+<p>The Pong Logo and the Posthumous Pixel logo and name are not trademarked but please don’t be a d*ck. If you wish to use them let me know and don’t pretend it’s your own work.</p>
+
+<p><br /></p>
+
+<h3 id="credits">Credits</h3>
+
+<p>All assets used in this product are under Creative Commons, Public Domain or of my own creation.</p>
+
+<p>“Voice Over Under”, “Cyborg Ninja” and “Pixelland”<br />
+Kevin MacLeod (<a href="https://incompetech.com/music/royalty-free/music.html">incompetech.com</a>)<br />
+Licensed under Creative Commons: By Attribution 3.0
+<a href="http://creativecommons.org/licenses/by/3.0/">
+http://creativecommons.org/licenses/by/3.0/</a></p>
+
+<p>Other Audio clips were sourced from <a href="http://freesound.org/">freesound.org</a> and when I find the original clips I downloaded I will credit the specific artists.</p>
+
+<p>The typeface used currently for all UI text elements (<a href="http://www.1001fonts.com/white-rabbit-font.html">White Rabbit</a> by Matthew Welch) is free for commercial use.</p>
+
+<p>All custom visuals were made by me, that’s why they’re rubbish.</p>
+
+<p><br /></p>
+
+<h3 id="changelog">Changelog</h3>
+
+<h4 id="section">0.4</h4>
+<ul>
+  <li>Replaced individual track buttons with left/right selector</li>
+  <li>Added Classic Singleplayer, including AI</li>
+  <li>Added Difficulty selector for singleplayer</li>
+  <li>Corrected bug making ball always shoot left</li>
+  <li>Corrected bug with persisting menus after unpausing</li>
+</ul>
+
+<h4 id="section-1">0.3</h4>
+<ul>
+  <li>Added Splash/Initializer Scene</li>
+  <li>Added Main menu and proper pause menu</li>
+  <li>Added option menu with resolution and audio controls</li>
+  <li>Added two alternative BGM tracks</li>
+  <li>Replaced OnGUI elements with object based UI elements</li>
+  <li>Hidden Fullscreen and quit-to-desktop buttons in WebGl mode</li>
+</ul>
+
+<h4 id="section-2">0.25</h4>
+<ul>
+  <li>Fixed audio import settings, meaning it works in WebGL now</li>
+  <li>WebGL player resolution optimized for this site</li>
+  <li>UI elements now resize based on window size</li>
+  <li>Audio migrated to new script</li>
+</ul>
+
+<h4 id="section-3">0.2</h4>
+<ul>
+  <li>Paddles reset when button pressed</li>
+  <li>Added toggle menu with: Pause/Play, Reset, Mute/Unmute and Quit Options</li>
+  <li>Added countdown timer on serve</li>
+  <li>Tidied up code with some extra comments</li>
+  <li>Ball now starts at center (after slight delay)</li>
+</ul>
+
+<h4 id="section-4">0.1</h4>
+<ul>
+  <li>Initial Release
+<br /><br /></li>
+</ul>
+
+
+
+<h5>Share this page</h5>
+
+<a href=
+'http://twitter.com/share?url=
+http://www.jackhaydock.co.uk/posts/2017/pong-04&text=Pong (AI Update)'
+target="_blank"
+class='button'>
+<img src="/public/images/twitter.png" alt="Twitter"
+height=50px width=50px>
+</a>
+
+<a href=
+"https://www.facebook.com/sharer/sharer.php?u=
+http://www.jackhaydock.co.uk/posts/2017/pong-04"
+target="_blank">
+<img src="/public/images/facebook.png" alt="Facebook"
+height=50px width=50px>
+</a>
+
+<a href=
+"https://plus.google.com/share?url=
+http://www.jackhaydock.co.uk/posts/2017/pong-04"
+target="_blank">
+<img src="/public/images/google.png" alt="Google+"
+height=50px width=50px>
+</a>
+
+<h2> Comments </h2>
+Don't be too mean...please?
+<br>
+You don't need to sign in to use the comments, simply click the 'Name' input and you will see an option 'I'd rather post as a guest'. You can use a phony email if it really bothers you.
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//jackhaydock.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</article>
+                                
+
+
+      <footer>
+        <p>
+
+	Contact me:
+<br>E-Mail: jwhaydock@jackhaydock.co.uk
+<br>Twitter: <a href=https://twitter.com/JWHaydock>@JWHaydock</a>
+<br>
+<br>
+
+	This website is hosted on
+ <a href="https://github.com/jackhaydock/jackhaydock2.github.io" target="blank">GitHub</a>
+ and was originally created using
+ <a href="https://jekyllrb.com/" target="blank">Jekyll</a>
+ and the
+ <a href="http://jekyllthemes.org/themes/brume/" target="blank">brume</a>
+ theme
+ created by Aigars Dzerviniks, licensed under an
+ <a rel="license" href="https://github.com/aigarsdz/brume/blob/master/LICENSE.md" target="blank">MIT License</a>.
+        </p>
+      </footer>
+
+</div>
+
+<!-- scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/public/js/jquery.fitvids.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("article").fitVids();
+      });
+    </script>
+
+
+  </body>
+</html>
