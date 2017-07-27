@@ -7,16 +7,7 @@
       content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" 
 {% endif %}>
 <meta name="author" content="{{ site.data.web.author }}">
-
-<!-- Open Graph -->
-<meta property="og:title" content="{{page.title}}"
-<meta property="og:description" content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}"
-<meta property="og:image"
-{% if page.categories == "art", "project", "blog" %}
-	content="{{ site.data.web.url }}{{ page.image }}"
-{% else %}
-	content="{{ site.data.web.url }}/public/images/logo.png"
-{% endif %}>
+<meta name="image" content="{{ site.data.web.url }}{{ page.image }}">
 
 <!-- Twitter Meta -->
 <meta name="twitter:card" content="summary_large_image"/>
@@ -24,7 +15,11 @@
 <meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}"/>
 <meta name="twitter:title" content="{{ page.title }}"/>
 <meta name="twitter:image" 
-{% if page.categories == "art", "project", "blog" %}
+{% if page.categories == "art" %}
+	content="{{ site.data.web.url }}{{ page.image }}"
+{% else if page.categories == "project" %}
+	content="{{ site.data.web.url }}{{ page.image }}"
+{% else if page.categories == "blog" %}
 	content="{{ site.data.web.url }}{{ page.image }}"
 {% else %}
 	content="{{ site.data.web.url }}/public/images/logo.png"
