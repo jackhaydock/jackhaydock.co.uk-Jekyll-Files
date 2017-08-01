@@ -3,30 +3,32 @@ layout: default
 title: Home
 ---
 
-<h2>Welcome</h2>
+This is a collection of games, art and other stuff that I have created. Use the tabs above to filter the posts by type.
 
-<p>My name is Jack William Haydock.</p>
+<div class="bundle row gutters fadeInDown animated">
 
-<p>I am a young englishman almost succeeding at adulthood. My main interests include IT, specifically software and web development, science, and creative media. This website has no specific purpose but I intend to publish some creative works here as well as perform experiments with coding and scripting. </p>
+<section class="archive">
+{% for post in site.posts %}
 
-<p>If you wish to make a sugestion, upload something or just tell me my work is terrible, feel free to leave a comment or contact me via these methods:</p>
+<!--Post Links -->
 
-<p>Email: jwhaydock@jackhaydock.co.uk</p>
-
-<p>Twitter: <a href="https://twitter.com/JWHaydock">@JWHaydock</a></p>
-
-<br>
-
-<b>My CV</b>
-<br>Last Updated: 26/06/2017
-<br>
-<a href="/CV/CV.pdf" target="_blank">
-<img src="/public/images/text.png" alt="PDF Icon, click to download CV" width="50" height="50"> 
+<article class="row gutters">
+<div class="post-date col span_4">
+<a id="postlink" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">
+<strong>
+{{ post.title }} 
+</strong>
+	<br>
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B %Y" }}</time>
+    </div>
+<img src={{ post.image }} alt='{{ post.title }}'>
 </a>
+    
 
-<br><br>
 
-{% include comments.html %}
+  </article>
 
-</article>
+{% if forloop.last %}</div></div>{% endif %}
 
+{% endfor %}
+</section>

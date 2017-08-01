@@ -1,8 +1,15 @@
 # TODO list
 * Add contact form
 * Fix twitter card for pages that don't have {{page.image}}
+* Set urls to separate by category not year (and redirect old links)
 
 # Changelog
+
+### 01/08/2017
+* Changed Home page to feed of all posts
+* Moved previous home page to 'about' page
+* Slight changes to about text and site description
+* Added home button to 404 page
 
 ### 01/07/2017
 * Removed the 'Sort by year(and/or category)' system for blog feeds.
