@@ -12,6 +12,24 @@ This is a collection of games, art and other stuff that I have created. Use the 
 
 <!--Post Links -->
 
+{% if post.category == "project" %}
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a id="postlink" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">
+<strong>
+{{ post.title }} 
+</strong>
+	<br>
+	Version: {{post.version}}
+	<br>
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B %Y" }}</time>
+    </div>
+<img src={{ post.image }} alt='{{ post.title }}'>
+</a>
+
+{% else %}
+
 <article class="row gutters">
 <div class="post-date col span_4">
 <a id="postlink" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">
@@ -23,6 +41,8 @@ This is a collection of games, art and other stuff that I have created. Use the 
     </div>
 <img src={{ post.image }} alt='{{ post.title }}'>
 </a>
+
+{% endif %}
     
 
 

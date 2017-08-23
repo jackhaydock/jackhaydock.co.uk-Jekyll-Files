@@ -2,8 +2,14 @@
 * Add contact form
 * Fix twitter card for pages that don't have {{page.image}}
 * Set urls to separate by category not year (and redirect old links)
+* Move Build files for projects to cloud better suited for large file downloads
 
 # Changelog
+
+### 23/08/2017
+* Removed duplicate pong post
+* Added version numbers to project post links on home feed
+* Moved project download files to separate repository on Github (TEMPORY, I intend to move them to a different cloud site better suited for large files)
 
 ### 01/08/2017
 * Changed Home page to feed of all posts
