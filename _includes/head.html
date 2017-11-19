@@ -1,30 +1,28 @@
 <!-- meta information -->
 <meta charset="utf-8">
-<meta name="description" 
 {% if page.title == "Home" %}
-      content="{{ site.data.web.description }}" 
+      <meta name="description" content="{{ site.data.web.description }}">
 {% else %}
-      content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" 
-{% endif %}>
+      <meta name="description" content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}">
+{% endif %}
 <meta name="author" content="{{ site.data.web.author }}">
-<meta name="image" content="{{ site.data.web.url }}{{ page.image }}">
+{% if (page.categories == "art") or (page.categories == "project") or (page.categories == "blog") %}
+	<meta name="image" content="{{ site.data.web.baseurl }}{{ page.image }}">
+{% else %}
+	<meta name="image" content="{{ site.data.web.baseurl }}/public/images/logo.png">
+{% endif %}
 
 <!-- Twitter Meta -->
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:site" content="@JWHaydock"/>
-<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}"/>
-<meta name="twitter:title" content="{{ page.title }}"/>
-<meta name="twitter:image" 
-{% if page.categories == "art" %}
-	content="{{ site.data.web.url }}{{ page.image }}"
-{% else if page.categories == "project" %}
-	content="{{ site.data.web.url }}{{ page.image }}"
-{% else if page.categories == "blog" %}
-	content="{{ site.data.web.url }}{{ page.image }}"
+<meta name="twitter:domain" content="{{ site.data.web.baseurl }}{{ page.url }}">
+<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}">
+<meta name="twitter:title" content="{{ page.title }}">
+{% if (page.categories == "art") or (page.categories == "project") or (page.categories == "blog") %}
+  <meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="{{ site.data.web.baseurl }}{{ page.image }}">
 {% else %}
-	content="{{ site.data.web.url }}/public/images/logo.png"
-{% endif %}>
-<meta name="twitter:domain" content="{{ site.data.web.url }}{{ page.url }}"/>
+  <meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="{{ site.data.web.baseurl }}/public/images/logo.png">
+{% endif %}
 
 <!-- Enable responsiveness on mobile devices-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">

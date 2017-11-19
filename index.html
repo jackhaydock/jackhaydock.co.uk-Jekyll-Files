@@ -16,9 +16,9 @@ This is a collection of games, art and other stuff that I have created. Use the 
 
 <article class="row gutters">
 <div class="post-date col span_4">
-<a id="postlink" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">
+<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8 postlink">
 <strong>
-{{ post.title }} 
+{{ post.title }}
 </strong>
 	<br>
 	Version: {{post.version}}
@@ -32,9 +32,9 @@ This is a collection of games, art and other stuff that I have created. Use the 
 
 <article class="row gutters">
 <div class="post-date col span_4">
-<a id="postlink" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">
+<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8 postlink">
 <strong>
-{{ post.title }} 
+{{ post.title }}
 </strong>
 	<br>
       <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B %Y" }}</time>
@@ -43,7 +43,7 @@ This is a collection of games, art and other stuff that I have created. Use the 
 </a>
 
 {% endif %}
-    
+
 
 
   </article>

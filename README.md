@@ -3,8 +3,14 @@
 * Fix twitter card for pages that don't have {{page.image}}
 * Set urls to separate by category not year (and redirect old links)
 * Move Build files for projects to cloud better suited for large file downloads
+* Fix postlink CSS for Chromium (hyperlink color and img margin)
 
 # Changelog
+
+### 19/11/2017
+* Attempted to fix social media cards
+* Changed Logo
+* Removed Twitter Account
 
 ### 23/08/2017
 * Removed duplicate pong post

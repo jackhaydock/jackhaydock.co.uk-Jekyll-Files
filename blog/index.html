@@ -14,16 +14,16 @@ I'm not sure what I'll put here but I felt like creating this feed, just in case
 
 <article class="row gutters">
 <div class="post-date col span_4">
-<a id="postlink" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8">
+<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8 postlink">
 <strong>
-{{ post.title }} 
+{{ post.title }}
 </strong>
 	<br>
       <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B %Y" }}</time>
     </div>
 <img src={{ post.image }} alt='{{ post.title }}'>
 </a>
-    
+
 
 
   </article>
