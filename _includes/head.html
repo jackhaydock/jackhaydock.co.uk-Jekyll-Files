@@ -9,9 +9,11 @@
 <meta name="author" content="{{ site.data.web.author }}">
 
 {% if (page.category == "art") or (page.category == "project") or (page.category == "blog") %}
-  <meta name="image" content="{{ site.data.web.baseurl }}{{ page.image }}">
+  <meta name="image" content="{{ site.data.web.url }}{{ page.image }}">
+  <meta name="og:image" content="{{ site.data.web.url }}{{ page.image }}">
 {% else %}
-  <meta name="image" content="{{ site.data.web.baseurl }}/public/images/logo.png">
+  <meta name="image" content="{{ site.data.web.url }}/public/images/logo.png">
+  <meta name="og:image" content="{{ site.data.web.url }}/public/images/logo.png">
 {% endif %}
 <!---->
 
@@ -26,13 +28,13 @@
 
 {% if (page.category == "art") or (page.category == "project") or (page.category == "blog") %}
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="{{ site.data.web.baseurl }}{{ page.image }}">
+  <meta name="twitter:image" content="{{ site.data.web.url }}{{ page.image }}">
 {% else %}
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="{{ site.data.web.baseurl }}/public/images/logo.png">
+  <meta name="twitter:image" content="{{ site.data.web.url }}/public/images/logo.png">
 {% endif %}
 
-<meta name="twitter:domain" content="{{ site.data.web.baseurl }}{{ page.url }}">
+<meta name="twitter:domain" content="{{ site.data.web.url }}{{ page.url }}">
 
 <!---->
 
