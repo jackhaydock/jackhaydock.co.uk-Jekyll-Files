@@ -1,28 +1,40 @@
 <!-- meta information -->
 <meta charset="utf-8">
 {% if page.title == "Home" %}
-      <meta name="description" content="{{ site.data.web.description }}">
+  <meta name="description" content="{{ site.data.web.description }}">
 {% else %}
-      <meta name="description" content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}">
-{% endif %}
-<meta name="author" content="{{ site.data.web.author }}">
-{% if (page.category == "art") or (page.category == "project") or (page.category == "blog") %}
-	<meta name="image" content="{{ site.data.web.baseurl }}{{ page.image }}">
-{% else %}
-	<meta name="image" content="{{ site.data.web.baseurl }}/public/images/logo.png">
+  <meta name="description" content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}">
 {% endif %}
 
+<meta name="author" content="{{ site.data.web.author }}">
+
+{% if (page.category == "art") or (page.category == "project") or (page.category == "blog") %}
+  <meta name="image" content="{{ site.data.web.baseurl }}{{ page.image }}">
+{% else %}
+  <meta name="image" content="{{ site.data.web.baseurl }}/public/images/logo.png">
+{% endif %}
+<!---->
+
 <!-- Twitter Meta -->
+{% if page.title == "Home" %}
+  <meta name="twitter:title" content="Jack Haydock">
+  <meta name="twitter:description" content="{{ site.data.web.description }}">
+{% else %}
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}">
+{% endif %}
+
 {% if (page.category == "art") or (page.category == "project") or (page.category == "blog") %}
   <meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="{{ site.data.web.baseurl }}{{ page.image }}">
+  <meta name="twitter:image" content="{{ site.data.web.baseurl }}{{ page.image }}">
 {% else %}
   <meta name="twitter:card" content="summary">
-	<meta name="twitter:image" content="{{ site.data.web.baseurl }}/public/images/logo.png">
+  <meta name="twitter:image" content="{{ site.data.web.baseurl }}/public/images/logo.png">
 {% endif %}
+
 <meta name="twitter:domain" content="{{ site.data.web.baseurl }}{{ page.url }}">
-<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}">
-<meta name="twitter:title" content="{{ page.title }}">
+
+<!---->
 
 <!-- Enable responsiveness on mobile devices-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
