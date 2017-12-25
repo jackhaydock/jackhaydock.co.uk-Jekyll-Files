@@ -6,9 +6,35 @@
     <atom:link href="http://www.jackhaydock.co.uk/feed.xml" rel="self" type="application/rss+xml" />
     <description>A portfolio of the assorted works of a sad and lonely man</description>
     <language>en-us</language>
-    <pubDate>Sun, 19 Nov 2017 18:05:32 +0000</pubDate>
-    <lastBuildDate>Sun, 19 Nov 2017 18:05:32 +0000</lastBuildDate>
+    <pubDate>Mon, 25 Dec 2017 12:18:30 +0000</pubDate>
+    <lastBuildDate>Mon, 25 Dec 2017 12:18:30 +0000</lastBuildDate>
 
+    
+      <item>
+        <title>Happy Yuletide!</title>
+        <link>http://www.jackhaydock.co.uk/posts/2017/YuleTide</link>
+        <pubDate>Mon, 25 Dec 2017 00:00:00 +0000</pubDate>
+        <author>Jack Haydock</author>
+        <description>&lt;p&gt;I kind of gave up on this one, there was originally meant to be people in it, but I’ve never been good at drawing figures. I decided that if I got too ambitious I wouldn’t have time to finish it so I rounded it off as best I could and called it finished.&lt;/p&gt;
+
+&lt;p&gt;Despite that, I’m still pleased with this one, I didn’t trace anything, it’s all original. I also experimented with lots of new things instead of just the usual draw a vector line and fill it in. I played around with new filters, blending modes, different brushes and many new things that made this piece quite fun, even if the end result is not as good as the original plan (art never is).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/AlleyEvening.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/AlleyEvening.png&quot; alt=&quot;Snowy Alley in the Evening&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/AlleyNight.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/AlleyNight.png&quot; alt=&quot;Snowy Alley at night&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/AlleyDay.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/AlleyDay.png&quot; alt=&quot;Snowy Alley during daytime&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>Yours Truly</title>
@@ -236,7 +262,7 @@ http://creativecommons.org/licenses/by/3.0/&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;changelog&quot;&gt;Changelog&lt;/h3&gt;
 
-&lt;h4 id=&quot;section&quot;&gt;0.4&lt;/h4&gt;
+&lt;h4 id=&quot;04&quot;&gt;0.4&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Replaced individual track buttons with left/right selector&lt;/li&gt;
   &lt;li&gt;Added Classic Singleplayer, including AI&lt;/li&gt;
@@ -245,7 +271,7 @@ http://creativecommons.org/licenses/by/3.0/&lt;/a&gt;&lt;/p&gt;
   &lt;li&gt;Corrected bug with persisting menus after unpausing&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;section-1&quot;&gt;0.3&lt;/h4&gt;
+&lt;h4 id=&quot;03&quot;&gt;0.3&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Added Splash/Initializer Scene&lt;/li&gt;
   &lt;li&gt;Added Main menu and proper pause menu&lt;/li&gt;
@@ -255,7 +281,7 @@ http://creativecommons.org/licenses/by/3.0/&lt;/a&gt;&lt;/p&gt;
   &lt;li&gt;Hidden Fullscreen and quit-to-desktop buttons in WebGl mode&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;section-2&quot;&gt;0.25&lt;/h4&gt;
+&lt;h4 id=&quot;025&quot;&gt;0.25&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Fixed audio import settings, meaning it works in WebGL now&lt;/li&gt;
   &lt;li&gt;WebGL player resolution optimized for this site&lt;/li&gt;
@@ -263,7 +289,7 @@ http://creativecommons.org/licenses/by/3.0/&lt;/a&gt;&lt;/p&gt;
   &lt;li&gt;Audio migrated to new script&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;section-3&quot;&gt;0.2&lt;/h4&gt;
+&lt;h4 id=&quot;02&quot;&gt;0.2&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Paddles reset when button pressed&lt;/li&gt;
   &lt;li&gt;Added toggle menu with: Pause/Play, Reset, Mute/Unmute and Quit Options&lt;/li&gt;
@@ -272,7 +298,7 @@ http://creativecommons.org/licenses/by/3.0/&lt;/a&gt;&lt;/p&gt;
   &lt;li&gt;Ball now starts at center (after slight delay)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;section-4&quot;&gt;0.1&lt;/h4&gt;
+&lt;h4 id=&quot;01&quot;&gt;0.1&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Initial Release
 &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
@@ -411,7 +437,7 @@ http://creativecommons.org/licenses/by/3.0/&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;changelog&quot;&gt;Changelog&lt;/h3&gt;
 
-&lt;h4 id=&quot;section&quot;&gt;0.3&lt;/h4&gt;
+&lt;h4 id=&quot;03&quot;&gt;0.3&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Added Splash/Initializer Scene&lt;/li&gt;
   &lt;li&gt;Added Main menu and proper pause menu&lt;/li&gt;
@@ -421,7 +447,7 @@ http://creativecommons.org/licenses/by/3.0/&lt;/a&gt;&lt;/p&gt;
   &lt;li&gt;Hidden Fullscreen and quit-to-desktop buttons in WebGl mode&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;section-1&quot;&gt;0.25&lt;/h4&gt;
+&lt;h4 id=&quot;025&quot;&gt;0.25&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Fixed audio import settings, meaning it works in WebGL now&lt;/li&gt;
   &lt;li&gt;WebGL player resolution optimized for this site&lt;/li&gt;
@@ -429,7 +455,7 @@ http://creativecommons.org/licenses/by/3.0/&lt;/a&gt;&lt;/p&gt;
   &lt;li&gt;Audio migrated to new script&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;section-2&quot;&gt;0.2&lt;/h4&gt;
+&lt;h4 id=&quot;02&quot;&gt;0.2&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Paddles reset when button pressed&lt;/li&gt;
   &lt;li&gt;Added toggle menu with: Pause/Play, Reset, Mute/Unmute and Quit Options&lt;/li&gt;
@@ -438,7 +464,7 @@ http://creativecommons.org/licenses/by/3.0/&lt;/a&gt;&lt;/p&gt;
   &lt;li&gt;Ball now starts at center (after slight delay)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;section-3&quot;&gt;0.1&lt;/h4&gt;
+&lt;h4 id=&quot;01&quot;&gt;0.1&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Initial Release
 &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
@@ -596,7 +622,7 @@ http://creativecommons.org/licenses/by/3.0/&lt;/p&gt;
 
 &lt;h3 id=&quot;changelog&quot;&gt;Changelog&lt;/h3&gt;
 
-&lt;h4 id=&quot;section&quot;&gt;0.25&lt;/h4&gt;
+&lt;h4 id=&quot;025&quot;&gt;0.25&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Fixed audio import settings, meaning it works in WebGL now&lt;/li&gt;
   &lt;li&gt;WebGL player resolution optimized for this site&lt;/li&gt;
@@ -604,7 +630,7 @@ http://creativecommons.org/licenses/by/3.0/&lt;/p&gt;
   &lt;li&gt;Audio migrated to new script&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;section-1&quot;&gt;0.2&lt;/h4&gt;
+&lt;h4 id=&quot;02&quot;&gt;0.2&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Paddles reset when button pressed&lt;/li&gt;
   &lt;li&gt;Added toggle menu with: Pause/Play, Reset, Mute/Unmute and Quit Options&lt;/li&gt;
@@ -613,7 +639,7 @@ http://creativecommons.org/licenses/by/3.0/&lt;/p&gt;
   &lt;li&gt;Ball now starts at center (after slight delay)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;section-2&quot;&gt;0.1&lt;/h4&gt;
+&lt;h4 id=&quot;01&quot;&gt;0.1&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Initial Release
 &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
@@ -730,7 +756,7 @@ http://creativecommons.org/licenses/by/3.0/&lt;/p&gt;
 
 &lt;h3 id=&quot;changelog&quot;&gt;Changelog&lt;/h3&gt;
 
-&lt;h4 id=&quot;section&quot;&gt;0.2&lt;/h4&gt;
+&lt;h4 id=&quot;02&quot;&gt;0.2&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Paddles reset when button pressed&lt;/li&gt;
   &lt;li&gt;Added toggle menu with: Pause/Play, Reset, Mute/Unmute and Quit Options&lt;/li&gt;
@@ -739,7 +765,7 @@ http://creativecommons.org/licenses/by/3.0/&lt;/p&gt;
   &lt;li&gt;Ball now starts at center (after slight delay)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;section-1&quot;&gt;0.1&lt;/h4&gt;
+&lt;h4 id=&quot;01&quot;&gt;0.1&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Initial Release
 &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
@@ -841,34 +867,12 @@ HTML/WebGL
 
 &lt;h3 id=&quot;changelog&quot;&gt;Changelog&lt;/h3&gt;
 
-&lt;h4 id=&quot;section&quot;&gt;0.1&lt;/h4&gt;
+&lt;h4 id=&quot;01&quot;&gt;0.1&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Initial Release
 &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-</description>
-      </item>
-    
-      <item>
-        <title>Happy Lupercalia!</title>
-        <link>http://www.jackhaydock.co.uk/posts/2017/Valentine</link>
-        <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
-        <author>Jack Haydock</author>
-        <description>&lt;p&gt;Yep, St. Valentine’s Day is just another holiday the Roman Catholics adopted to pull more pagans into their church, when killing them wasn’t enough. It was previously known as Lupercalia, a Roman fertility festival where young men dressed as animals and slapped random people with goat skin, very romantic. I admit Lupercalia was normally celebrated on the 15th, but Pope Gelasius I changed it to the 14th for some reason.&lt;/p&gt;
-
-&lt;p&gt;Upon learning this, I regret not drawing that instead.&lt;/p&gt;
-
-&lt;p&gt;Anyway enough history, on to the image, they may not be wearing the hats but these are still depictions of the usual three holiday animals, each representing a different person (I am the black and white one usually seen in a top hat).&lt;/p&gt;
-
-&lt;p&gt;Give this to someone who’s image and scent triggers chemical reactions in your brain to convince you to reproduce, I’m sure you humans have a word for it. They may react positively but more likely they’ll just look at you weird.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/Valentine.png&quot;&gt;
-&lt;img src=&quot;/public/post-images/2017/Valentine.png&quot; alt=&quot;Valentine&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
-&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
 </description>
       </item>
     
