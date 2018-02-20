@@ -5,7 +5,7 @@
     <!-- meta information -->
 <meta charset="utf-8">
 
-  <meta name="description" content="I'm not sure what I'll put here but I felt like creating this feed, just in case I need it.{% for post in site.catego...">
+  <meta name="description" content="{% for post in site.categories.blog %}{{ post.title }}	      {{ post.date | date: "%-d %B %Y" }}      {% if forloop.l...">
 
 
 <meta name="author" content="Jack Haydock">
@@ -18,8 +18,8 @@
 
 <!-- Twitter Meta -->
 
-  <meta name="twitter:title" content="Blog">
-  <meta name="twitter:description" content="I'm not sure what I'll put here but I felt like creating this feed, just in case I need it.{% for post in site.catego...">
+  <meta name="twitter:title" content="Misc">
+  <meta name="twitter:description" content="{% for post in site.categories.blog %}{{ post.title }}	      {{ post.date | date: "%-d %B %Y" }}      {% if forloop.l...">
 
 
 
@@ -35,7 +35,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
 <!-- title -->
-<title>Blog &middot; Jack Haydock</title>
+<title>Misc &middot; Jack Haydock</title>
 
 <!-- icons -->
 <link rel="shortcut icon" href="/public/images/favicon.ico" />
@@ -83,7 +83,7 @@
   
 
   <a href="/blog/" title="Misc"
-     >Misc</a>
+     class="current-page">Misc</a>
   
 
   <a href="/about/" title="About"
@@ -94,9 +94,12 @@
 
       </header>
 
-      I'm not sure what I'll put here but I felt like creating this feed, just in case I need it.
+      <div class="fadeInDown animated">
+<h2 style="margin-bottom:0px;">Misc</h2>
+<span class="feed-desc">I'm not sure what I'll put here but I felt like creating this feed, just in case I need it.</span>
+</div>
 
-<div class="bundle row gutters fadeInDown animated">
+  <div class="bundle row gutters fadeInDown animated">
 
 <section class="archive">
 
@@ -145,6 +148,7 @@ New Blog
 
 
 </section>
+
 
 
       <footer>

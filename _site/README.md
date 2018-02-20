@@ -1,9 +1,9 @@
 # TODO list
 * Add contact form
-* Fix twitter card for pages that don't have {{page.image}}
 * Set urls to separate by category not year (and redirect old links)
 * Move Build files for projects to cloud better suited for large file downloads
 * Fix postlink CSS for Chromium (hyperlink color and img margin)
+* See if I can host posts in different repo to site allowing them to edited separately
 
 # Changelog
 
@@ -26,7 +26,7 @@
 ### 01/07/2017
 * Removed the 'Sort by year(and/or category)' system for blog feeds.
 * Added generic blog feed, it's exact purpose is still to be decided
-* Attempted fix for social media cards of none image pages 
+* Attempted fix for social media cards of none image pages
 * Moved CV to Home page and removed navbar link
 * Moved Puzzle Gauntlet to Misc feed and removed navbarlink
 
@@ -54,7 +54,7 @@
 * Posts are separated into categories (Currently 'art' and 'project') and displayed on separate pages
 * Posts are divided by category as well as year, this should have no visual effect except the first post on each page will have divider ragardless of date
 * Minor CSS changes to mobile layout
-* Secret on 404 page ;) 
+* Secret on 404 page ;)
 
 ### 07/05/2017
 * Rearranged pages (Home->Art and About->Home)

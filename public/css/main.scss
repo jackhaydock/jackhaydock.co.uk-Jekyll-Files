@@ -180,7 +180,7 @@ footer {
 
 .top-navbar {
   margin-bottom: 40px;
-  height: 110px;
+  // height: 110px;
 
   a {
     display: inline-block;
@@ -282,17 +282,17 @@ dl,
  }
 
    .top-navbar {
-      height: 50px;
+      // height: 50px;
       text-align: center;
       margin-top: 5px;
-      margin-bottom: 25px;
+      margin-bottom: 10px;
 
     a {
       font-size: 12px;
       font-weight: bold;
-      padding: 5px 10px;
-      margin: 5px;
-      border-radius: 0;
+      padding: 5px 5vw;
+      margin: 5px 0px;
+      border-radius: 5px;
       border: 1px solid $contrast-color;
       transition: none;
 
@@ -309,6 +309,10 @@ dl,
 
   .bundle article {
     margin-bottom: 30px;
+  }
+
+  .feed-desc {
+    display: none;
   }
 
 }

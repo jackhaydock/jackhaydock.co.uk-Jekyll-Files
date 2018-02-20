@@ -5,7 +5,7 @@
     <!-- meta information -->
 <meta charset="utf-8">
 
-  <meta name="description" content="Here is a selection of some artwork I have created.Most of these images will have been created with GIMP, Krita or CL...">
+  <meta name="description" content="{% for post in site.categories.art %}{{ post.title }}	      {{ post.date | date: "%-d %B %Y" }}      {% if forloop.la...">
 
 
 <meta name="author" content="Jack Haydock">
@@ -18,8 +18,8 @@
 
 <!-- Twitter Meta -->
 
-  <meta name="twitter:title" content="Art">
-  <meta name="twitter:description" content="Here is a selection of some artwork I have created.Most of these images will have been created with GIMP, Krita or CL...">
+  <meta name="twitter:title" content="Artwork">
+  <meta name="twitter:description" content="{% for post in site.categories.art %}{{ post.title }}	      {{ post.date | date: "%-d %B %Y" }}      {% if forloop.la...">
 
 
 
@@ -35,7 +35,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
 <!-- title -->
-<title>Art &middot; Jack Haydock</title>
+<title>Artwork &middot; Jack Haydock</title>
 
 <!-- icons -->
 <link rel="shortcut icon" href="/public/images/favicon.ico" />
@@ -79,7 +79,7 @@
   
 
   <a href="/art/" title="Art"
-     class="current-page">Art</a>
+     >Art</a>
   
 
   <a href="/blog/" title="Misc"
@@ -94,15 +94,12 @@
 
       </header>
 
-      Here is a selection of some artwork I have created.
-<br>
-Most of these images will have been created with
- <a href=https://www.gimp.org/ target="_blank"">GIMP</a>,
- <a href=https://krita.org/en/ target="_blank"">Krita</a>
- or
- <a href=http://www.clipstudio.net/en target="_blank"">CLIP STUDIO PAINT</a>.
+      <div class="fadeInDown animated">
+<h2 style="margin-bottom:0px;">Artwork</h2>
+<span class="feed-desc">Here is a selection of some artwork I have created.<br>Most of these will be created with <a href="https://www.clipstudio.net/en" target="_blank">Clip Studio</a>, <a href="https://www.gimp.org/" target="_blank">GIMP</a> or <a href="https://krita.org/en/" target="_blank">Krita</a>.</span>
+</div>
 
-<div class="bundle row gutters fadeInDown animated">
+  <div class="bundle row gutters fadeInDown animated">
 
 <section class="archive">
 
@@ -415,6 +412,7 @@ New Site!
 
 
 </section>
+
 
 
       <footer>

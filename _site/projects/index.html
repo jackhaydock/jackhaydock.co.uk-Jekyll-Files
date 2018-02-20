@@ -5,7 +5,7 @@
     <!-- meta information -->
 <meta charset="utf-8">
 
-  <meta name="description" content="On this feed I will post my complete and near complete projects as well as attempting to accurately document my progr...">
+  <meta name="description" content="{% for post in site.categories.project %}{{ post.title }}		Version: {{post.version}}	      {{ post.date | date: "%-d ...">
 
 
 <meta name="author" content="Jack Haydock">
@@ -19,7 +19,7 @@
 <!-- Twitter Meta -->
 
   <meta name="twitter:title" content="Projects">
-  <meta name="twitter:description" content="On this feed I will post my complete and near complete projects as well as attempting to accurately document my progr...">
+  <meta name="twitter:description" content="{% for post in site.categories.project %}{{ post.title }}		Version: {{post.version}}	      {{ post.date | date: "%-d ...">
 
 
 
@@ -94,9 +94,12 @@
 
       </header>
 
-      On this feed I will post my complete and near complete projects as well as attempting to accurately document my progress and troubleshooting. Put simply, here's where you play my games.
+      <div class="fadeInDown animated">
+<h2 style="margin-bottom:0px;">Projects</h2>
+<span class="feed-desc">On this feed I will post my complete and near complete projects as well as attempting to accurately document my progress and troubleshooting. Put simply, here's where you play my games.</span>
+</div>
 
-<div class="bundle row gutters fadeInDown animated">
+  <div class="bundle row gutters fadeInDown animated">
 
 <section class="archive">
 
@@ -206,6 +209,7 @@ Pong!
 
 
 </section>
+
 
 
       <footer>
