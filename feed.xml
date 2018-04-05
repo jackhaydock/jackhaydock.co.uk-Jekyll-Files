@@ -1,25 +1,823 @@
----
----
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.data.web.title }}</title>
-    <link>{{ site.data.web.url }}</link>
-    <atom:link href="{{ site.data.web.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml" />
-    <description>{{ site.data.web.description }}</description>
+    <title>Jack Haydock</title>
+    <link>http://www.jackhaydock.co.uk</link>
+    <atom:link href="http://www.jackhaydock.co.uk/feed.xml" rel="self" type="application/rss+xml" />
+    <description>A portfolio of the assorted works of a sad and lonely man</description>
     <language>en-us</language>
-    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    <pubDate>Thu, 05 Apr 2018 21:07:45 +0100</pubDate>
+    <lastBuildDate>Thu, 05 Apr 2018 21:07:45 +0100</lastBuildDate>
 
-    {% for post in site.posts limit: 10 %}
+    
       <item>
-        <title>{{ post.title }}</title>
-        <link>{{ site.data.web.url }}{{ site.baseurl }}{{ post.url }}</link>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <author>{{ site.data.web.author}}</author>
-        <description>{{ post.content | xml_escape }}</description>
+        <title>Behold! Fire!</title>
+        <link>http://www.jackhaydock.co.uk/posts/2018/Fire</link>
+        <pubDate>Thu, 05 Apr 2018 00:00:00 +0100</pubDate>
+        <author>Jack Haydock</author>
+        <description>&lt;p&gt;I decided to mess around with the fire brush in Clip Studio and found surprisingly easy to create great looking images in very little time. I’m also unusually proud of the wall behind the fire.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2018/Fireplace.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2018/Fireplace.png&quot; alt=&quot;Fireplace&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2018/Fireplace-Blue.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2018/Fireplace-Blue.png&quot; alt=&quot;Blue Fireplace&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2018/Candle-Orange.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2018/Candle-Orange.png&quot; alt=&quot;Candle Orange&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2018/Candle-White.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2018/Candle-White.png&quot; alt=&quot;Candle White&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2018/Candle-Red.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2018/Candle-Red.png&quot; alt=&quot;Candle Red&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2018/Candle-Blue.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2018/Candle-Blue.png&quot; alt=&quot;Candle Blue&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2018/Candle-Green.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2018/Candle-Green.png&quot; alt=&quot;Candle Green&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2018/Candle-Violet.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2018/Candle-Violet.png&quot; alt=&quot;Candle Violet&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
+</description>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Happy Yuletide!</title>
+        <link>http://www.jackhaydock.co.uk/posts/2017/YuleTide</link>
+        <pubDate>Mon, 25 Dec 2017 00:00:00 +0000</pubDate>
+        <author>Jack Haydock</author>
+        <description>&lt;p&gt;I kind of gave up on this one, there was originally meant to be people in it, but I’ve never been good at drawing figures. I decided that if I got too ambitious I wouldn’t have time to finish it so I rounded it off as best I could and called it finished.&lt;/p&gt;
+
+&lt;p&gt;Despite that, I’m still pleased with this one, I didn’t trace anything, it’s all original. I also experimented with lots of new things instead of just the usual draw a vector line and fill it in. I played around with new filters, blending modes, different brushes and many new things that made this piece quite fun, even if the end result is not as good as the original plan (art never is).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/AlleyEvening.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/AlleyEvening.png&quot; alt=&quot;Snowy Alley in the Evening&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/AlleyNight.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/AlleyNight.png&quot; alt=&quot;Snowy Alley at night&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/AlleyDay.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/AlleyDay.png&quot; alt=&quot;Snowy Alley during daytime&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Yours Truly</title>
+        <link>http://www.jackhaydock.co.uk/posts/2017/Portraits</link>
+        <pubDate>Sat, 18 Nov 2017 00:00:00 +0000</pubDate>
+        <author>Jack Haydock</author>
+        <description>&lt;!--
+Frozen Synapse
+Steam
+I6AFH-MHZ3M-KVA9R
+---&gt;
+
+&lt;p&gt;I haven’t done anything with this site in a while, that’s mainly because the game I’m working on, ‘Horseplay’ (working title), is taking a lot longer than expected. It’s a lot more complicated than a basic pong clone and now that I have a full-time job, I have even less time to work on it. So it’s going to be a while before a playable alpha is ready.&lt;/p&gt;
+
+&lt;p&gt;For now, enjoy some pixel art self portraits.&lt;/p&gt;
+
+&lt;p&gt;I originally made this a couple years ago, but recently I decided to redraw it and modify the layer structure to make it easier to customise.&lt;/p&gt;
+
+&lt;p&gt;If you have any ideas for what I could add to this, any characters I should try or would like one of your own, leave a comment or contact me.&lt;/p&gt;
+
+&lt;p&gt;Now have fun looking at my ugly mug.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/portraits/Casual_Base.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/portraits/Casual_Base.png&quot; alt=&quot;Self Portrait&quot; width=&quot;135&quot; height=&quot;135&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/public/post-images/2017/portraits/Casual_Black.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/portraits/Casual_Black.png&quot; alt=&quot;Self Portrait&quot; width=&quot;135&quot; height=&quot;135&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/public/post-images/2017/portraits/Casual_White.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/portraits/Casual_White.png&quot; alt=&quot;Self Portrait&quot; width=&quot;135&quot; height=&quot;135&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/public/post-images/2017/portraits/Casual_Up.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/portraits/Casual_Up.png&quot; alt=&quot;Self Portrait&quot; width=&quot;135&quot; height=&quot;135&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/public/post-images/2017/portraits/Casual_Down.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/portraits/Casual_Down.png&quot; alt=&quot;Self Portrait&quot; width=&quot;135&quot; height=&quot;135&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/public/post-images/2017/portraits/Pro_Base.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/portraits/Pro_Base.png&quot; alt=&quot;Self Portrait&quot; width=&quot;135&quot; height=&quot;135&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/public/post-images/2017/portraits/Pro_Black.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/portraits/Pro_Black.png&quot; alt=&quot;Self Portrait&quot; width=&quot;135&quot; height=&quot;135&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/public/post-images/2017/portraits/Pro_White.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/portraits/Pro_White.png&quot; alt=&quot;Self Portrait&quot; width=&quot;135&quot; height=&quot;135&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/public/post-images/2017/portraits/Pro_Up.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/portraits/Pro_Up.png&quot; alt=&quot;Self Portrait&quot; width=&quot;135&quot; height=&quot;135&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/public/post-images/2017/portraits/Pro_Down.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/portraits/Pro_Down.png&quot; alt=&quot;Self Portrait&quot; width=&quot;135&quot; height=&quot;135&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Wubba Lubba Dub Dub!</title>
+        <link>http://www.jackhaydock.co.uk/posts/2017/Rick</link>
+        <pubDate>Thu, 27 Jul 2017 00:00:00 +0100</pubDate>
+        <author>Jack Haydock</author>
+        <description>&lt;!--
+Punch Club Deluxe
+Steam
+N8DKB-XJH6H-A674Y
+---&gt;
+
+&lt;p&gt;Rick is Coming.&lt;/p&gt;
+
+&lt;p&gt;I am quite proud of this imperfect but very pleasing project. I’m also very surprised that nobody else seems to have done it.&lt;/p&gt;
+
+&lt;p&gt;If you haven’t watched ‘Rick and Morty’ or ‘Game of Thrones’, this won’t make much sense. I’m not going to explain because I think you should watch both those shows for yourself, unless you’re too young for that stuff, although you’re already on the Internet so you’re probably already corrupted.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/RoT.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/RoT.png&quot; alt=&quot;Rick of Thrones&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/RoT-noBG.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/RoT-noBG.png&quot; alt=&quot;Rick of Thrones&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/RoT-Throne.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/RoT-Throne.png&quot; alt=&quot;Rick of Thrones&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/public/post-images/2017/RoT-noBG-Throne.png&quot;&gt;
+&lt;img src=&quot;/public/post-images/2017/RoT-noBG-Throne.png&quot; alt=&quot;Rick of Thrones&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;click-image-to-see-larger-version&quot;&gt;Click image to see larger version&lt;/h6&gt;
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc/4.0/&quot;&gt;Creative Commons Attribution-NonCommercial 4.0 International License&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Pong (AI Update)</title>
+        <link>http://www.jackhaydock.co.uk/posts/2017/pong-04</link>
+        <pubDate>Fri, 07 Jul 2017 00:00:00 +0100</pubDate>
+        <author>Jack Haydock</author>
+        <description>&lt;h3 id=&quot;version-04&quot;&gt;Version: 0.4&lt;/h3&gt;
+
+&lt;iframe src=&quot;/public/projects/pong/0.4/index.html&quot; style=&quot;border:0px #000000 none;&quot; name=&quot;Pong&quot; scrolling=&quot;no&quot; height=&quot;360px&quot; width=&quot;710px&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click &lt;a href=&quot;/public/projects/pong/0.4/index.html&quot; target=&quot;blank&quot;&gt;here&lt;/a&gt; to play in new tab/window. Useful for resizing the game.&lt;/p&gt;
+
+&lt;h3 id=&quot;controls&quot;&gt;Controls&lt;/h3&gt;
+
+&lt;table style=&quot;text-align: center;&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;&lt;/th&gt;
+    &lt;th&gt;Left Player&lt;/th&gt;
+    &lt;th&gt;Right Player&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Up&lt;/th&gt;
+    &lt;td&gt;W&lt;/td&gt;
+    &lt;td&gt;Up Arrow&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Down&lt;/th&gt;
+    &lt;td&gt;S&lt;/td&gt;
+    &lt;td&gt;Down Arrow&lt;/td&gt;
+  &lt;/tr&gt; 
+  &lt;tr&gt;
+    &lt;th&gt;Pause&lt;/th&gt;
+    &lt;td colspan=&quot;2&quot;&gt;Esc&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Reset&lt;/th&gt;
+    &lt;td colspan=&quot;2&quot;&gt;R&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Menus are entirely mouse controlled.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;This is “Totally Original game not to too dissimilar to the 1972 classic, Pong”. Or TOGNTTDTT1972CP for short…let’s just call it Pong.&lt;/p&gt;
+
+&lt;p&gt;If you’ve lived under a rock for the last 45 years, Pong is a greatly simplified version of tennis. Your only objective is to get the ball past your opponent and off the opposite side of the screen, and to do it more often than your opponent.&lt;/p&gt;
+
+&lt;p&gt;There are both Singleplayer and Multiplayer modes, so you can play against an AI, against yourself or the guy you locked in the basement.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;downloads&quot;&gt;Downloads&lt;/h3&gt;
+
+&lt;p&gt;To run the the game, simply extract the .zips below and double click on the executable file. (Pong.exe, Pong.x86, Pong.x86_64 or Index.HTML). No install wizards needed just yet.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jackhaydock/Pong-Game/raw/master/Builds/0.4/Pong_04_Win.zip&quot; download=&quot;&quot;&gt;
+Windows
+&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/jackhaydock/Pong-Game/raw/master/Builds/0.4/Pong_04_Linux.zip&quot; download=&quot;&quot;&gt;
+Linux
+&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/jackhaydock/Pong-Game/raw/master/Builds/0.4/Pong_04_HTML.zip&quot; download=&quot;&quot;&gt;
+HTML/WebGL
+&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;notes&quot;&gt;Notes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;This game is optimized for 16:9 aspect ratios. While it should work on most aspect ratios, UI elements may overlap or be cut off by the windows with extreme ratios, especially on small screens.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;update-summary&quot;&gt;Update Summary&lt;/h3&gt;
+
+&lt;h4 id=&quot;version-04-1&quot;&gt;Version: 0.4&lt;/h4&gt;
+
+&lt;p&gt;This was much simpler than I thought it would be. The AI is still very simple, it simply follows the ball whenever it crosses into the right half of the screen. The difficulty simply sets how far away the ball is allowed to go before the paddle moves, I would like to improve this by having the lower difficulties make mistakes and maybe allowing higher difficulties to move even before the ball enters their side of the screen.&lt;/p&gt;
+
+&lt;p&gt;I also replaced the track buttons with a single left/right type selector, not only allowing room for the track name but effectively allowing potentially infinite tracks with no extra screen space being used.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;planned-updates&quot;&gt;Planned updates&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Improved visuals (eg. backgrounds, more than two colours etc.)&lt;/li&gt;
+  &lt;li&gt;Tooltips when hovering over menu buttons&lt;/li&gt;
+  &lt;li&gt;Drop-down menu of preset resolutions for options page&lt;/li&gt;
+  &lt;li&gt;Fix bug where ball occasionally flies offscreen at high speed&lt;/li&gt;
+  &lt;li&gt;Add more gamemodes (Ie. AI, rotating paddles, multi-ball, timed, score-limit etc.)&lt;/li&gt;
+  &lt;li&gt;Lower default volumes&lt;/li&gt;
+  &lt;li&gt;Smoother/More random AI&lt;/li&gt;
+  &lt;li&gt;Keyboard controls for menus&lt;/li&gt;
+  &lt;li&gt;Fix hit audio pitch&lt;/li&gt;
+  &lt;li&gt;Start Compressing files to reduce overall size, at least with the WebGL version&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;permissions&quot;&gt;Permissions&lt;/h3&gt;
+
+&lt;p&gt;If you’re mad enough to want to use this product on your own site, you are welcome to. Just be nice enough to let me know and give credit.&lt;/p&gt;
+
+&lt;p&gt;The Pong Logo and the Posthumous Pixel logo and name are not trademarked but please don’t be a d*ck. If you wish to use them let me know and don’t pretend it’s your own work.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;credits&quot;&gt;Credits&lt;/h3&gt;
+
+&lt;p&gt;All assets used in this product are under Creative Commons, Public Domain or of my own creation.&lt;/p&gt;
+
+&lt;p&gt;“Voice Over Under”, “Cyborg Ninja” and “Pixelland”&lt;br /&gt;
+Kevin MacLeod (&lt;a href=&quot;https://incompetech.com/music/royalty-free/music.html&quot;&gt;incompetech.com&lt;/a&gt;)&lt;br /&gt;
+Licensed under Creative Commons: By Attribution 3.0
+&lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;
+http://creativecommons.org/licenses/by/3.0/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Other Audio clips were sourced from &lt;a href=&quot;http://freesound.org/&quot;&gt;freesound.org&lt;/a&gt; and when I find the original clips I downloaded I will credit the specific artists.&lt;/p&gt;
+
+&lt;p&gt;The typeface used currently for all UI text elements (&lt;a href=&quot;http://www.1001fonts.com/white-rabbit-font.html&quot;&gt;White Rabbit&lt;/a&gt; by Matthew Welch) is free for commercial use.&lt;/p&gt;
+
+&lt;p&gt;All custom visuals were made by me, that’s why they’re rubbish.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;changelog&quot;&gt;Changelog&lt;/h3&gt;
+
+&lt;h4 id=&quot;04&quot;&gt;0.4&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Replaced individual track buttons with left/right selector&lt;/li&gt;
+  &lt;li&gt;Added Classic Singleplayer, including AI&lt;/li&gt;
+  &lt;li&gt;Added Difficulty selector for singleplayer&lt;/li&gt;
+  &lt;li&gt;Corrected bug making ball always shoot left&lt;/li&gt;
+  &lt;li&gt;Corrected bug with persisting menus after unpausing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;03&quot;&gt;0.3&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Added Splash/Initializer Scene&lt;/li&gt;
+  &lt;li&gt;Added Main menu and proper pause menu&lt;/li&gt;
+  &lt;li&gt;Added option menu with resolution and audio controls&lt;/li&gt;
+  &lt;li&gt;Added two alternative BGM tracks&lt;/li&gt;
+  &lt;li&gt;Replaced OnGUI elements with object based UI elements&lt;/li&gt;
+  &lt;li&gt;Hidden Fullscreen and quit-to-desktop buttons in WebGl mode&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;025&quot;&gt;0.25&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed audio import settings, meaning it works in WebGL now&lt;/li&gt;
+  &lt;li&gt;WebGL player resolution optimized for this site&lt;/li&gt;
+  &lt;li&gt;UI elements now resize based on window size&lt;/li&gt;
+  &lt;li&gt;Audio migrated to new script&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;02&quot;&gt;0.2&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Paddles reset when button pressed&lt;/li&gt;
+  &lt;li&gt;Added toggle menu with: Pause/Play, Reset, Mute/Unmute and Quit Options&lt;/li&gt;
+  &lt;li&gt;Added countdown timer on serve&lt;/li&gt;
+  &lt;li&gt;Tidied up code with some extra comments&lt;/li&gt;
+  &lt;li&gt;Ball now starts at center (after slight delay)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;01&quot;&gt;0.1&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Initial Release
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+      </item>
+    
+      <item>
+        <title>Pong (Menu Update)</title>
+        <link>http://www.jackhaydock.co.uk/posts/2017/pong-03</link>
+        <pubDate>Tue, 04 Jul 2017 00:00:00 +0100</pubDate>
+        <author>Jack Haydock</author>
+        <description>&lt;h3 id=&quot;version-03&quot;&gt;Version: 0.3&lt;/h3&gt;
+
+&lt;iframe src=&quot;/public/projects/pong/0.3/index.html&quot; style=&quot;border:0px #000000 none;&quot; name=&quot;Pong&quot; scrolling=&quot;no&quot; height=&quot;360px&quot; width=&quot;710px&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click &lt;a href=&quot;/public/projects/pong/0.3/index.html&quot; target=&quot;blank&quot;&gt;here&lt;/a&gt; to play in new tab/window. Useful for resizing the game.&lt;/p&gt;
+
+&lt;h3 id=&quot;controls&quot;&gt;Controls&lt;/h3&gt;
+
+&lt;table style=&quot;text-align: center;&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;&lt;/th&gt;
+    &lt;th&gt;Left Player&lt;/th&gt;
+    &lt;th&gt;Right Player&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Up&lt;/th&gt;
+    &lt;td&gt;W&lt;/td&gt;
+    &lt;td&gt;Up Arrow&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Down&lt;/th&gt;
+    &lt;td&gt;S&lt;/td&gt;
+    &lt;td&gt;Down Arrow&lt;/td&gt;
+  &lt;/tr&gt; 
+  &lt;tr&gt;
+    &lt;th&gt;Pause&lt;/th&gt;
+    &lt;td colspan=&quot;2&quot;&gt;Esc&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Reset&lt;/th&gt;
+    &lt;td colspan=&quot;2&quot;&gt;R&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Menus are entirely mouse controlled.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;This is “Totally Original game not to too dissimilar to the 1972 classic, ‘Pong’”. Or TOGNTTDTT1972CP for short…let’s just call it Pong.&lt;/p&gt;
+
+&lt;p&gt;It is a multi-player game so grab a friend, enemy or that confused stranger in the street. You could also play with two hands like I do, I’m lonely.&lt;/p&gt;
+
+&lt;p&gt;If you’ve lived under a rock for the last 45 years, Pong is a greatly simplified version of tennis. Your only objective is to get the ball past your opponent and off the opposite side of the screen, and to do it more often than your opponent.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;downloads&quot;&gt;Downloads&lt;/h3&gt;
+
+&lt;p&gt;To run the the game, simply extract the .zips below and double click on the executable file. (Pong.exe, Pong.x86, Pong.x86_64 or Index.HTML). No install wizards needed just yet.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jackhaydock/Pong-Game/raw/master/Builds/0.3/Pong_03_Win.zip&quot; download=&quot;&quot;&gt;
+Windows
+&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/jackhaydock/Pong-Game/raw/master/Builds/0.3/Pong_03_Linux.zip&quot; download=&quot;&quot;&gt;
+Linux
+&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/jackhaydock/Pong-Game/raw/master/Builds/0.3/Pong_03_HTML.zip&quot; download=&quot;&quot;&gt;
+HTML/WebGL
+&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;notes&quot;&gt;Notes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;This game is optimized for 16:9 aspect ratios. While it should work on most aspect ratios, UI elements may overlap or be cut off by the windows with extreme ratios, especially on small screens.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;update-summary&quot;&gt;Update Summary&lt;/h3&gt;
+
+&lt;h4 id=&quot;version-03-1&quot;&gt;Version: 0.3&lt;/h4&gt;
+
+&lt;p&gt;It took a lot of 80s music to make this happen. I lost count of the times I noticed a problem and had to redesign or entirely rewrite several pages of code. I am happy with this build however, assuming it works on all platforms, please let me know of any problems. I have had problems with Firefox on Windows before.&lt;/p&gt;
+
+&lt;p&gt;I basically redesigned the audio system, all audio clips are now stored within one gameobject (lib_audio) and it’s children. This object is initialized in the splash screen and is not destroyed between scenes, meaning the same instance of the objects exists in every scene. The script controlling audio also has only one instance that exists in every scene. While this method does require more code than alternatives, it is much easier to keep track of and modify.&lt;/p&gt;
+
+&lt;p&gt;I have taken a similar approach to the new in game menus. Initially I created the main menu and in-game pause menus separately. This was not ideal as some elements (such as the options menu) exist in both and affect the same things so moved all menu based UI elements into a single game object hierarchy (obj_menus). Like the audio this requires more code every time it’s needed but again is much easier to track and modify, it also ensures any player set options will persist throughout the whole game not just the present scene, hopefully.&lt;/p&gt;
+
+&lt;p&gt;I have also added volume controls and alternative BGM track options because, while ‘Voice Over Under’ is good, after hearing six hundred times at full volume on every test, I started to tire of it. Like VOU, both the new tracks, ‘Cyborg Ninja’ and ‘Pixelland’, are created by Kevin MacLeod at &lt;a href=&quot;https://incompetech.com/music/royalty-free/music.html&quot;&gt;incompetech.com&lt;/a&gt; and should loop pretty well.&lt;/p&gt;
+
+&lt;h3 id=&quot;planned-updates&quot;&gt;Planned updates&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Improved visuals (eg. backgrounds, more than two colours etc.)&lt;/li&gt;
+  &lt;li&gt;Tooltips when hovering over menu buttons&lt;/li&gt;
+  &lt;li&gt;Drop-down menu of preset resolutions for options page&lt;/li&gt;
+  &lt;li&gt;Fix bug where ball occasionally flies offscreen at high speed&lt;/li&gt;
+  &lt;li&gt;Add singleplayer mode against AI player&lt;/li&gt;
+  &lt;li&gt;Add more gamemodes (Ie. AI, rotating paddles, multi-ball, timed, score-limit etc.)&lt;/li&gt;
+  &lt;li&gt;Lower default volumes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;permissions&quot;&gt;Permissions&lt;/h3&gt;
+
+&lt;p&gt;If you’re mad enough to want to use this product on your own site, you are welcome to. Just be nice enough to let me know and give credit.&lt;/p&gt;
+
+&lt;p&gt;The Pong Logo and the Posthumous Pixel logo and name are not trademarked but please don’t be a d*ck. If you wish to use them let me know and don’t pretend it’s your own work.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;credits&quot;&gt;Credits&lt;/h3&gt;
+
+&lt;p&gt;All assets used in this product are under Creative Commons, Public Domain or of my own creation.&lt;/p&gt;
+
+&lt;p&gt;“Voice Over Under”, “Cyborg Ninja” and “Pixelland”&lt;br /&gt;
+Kevin MacLeod (&lt;a href=&quot;https://incompetech.com/music/royalty-free/music.html&quot;&gt;incompetech.com&lt;/a&gt;)&lt;br /&gt;
+Licensed under Creative Commons: By Attribution 3.0
+&lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;
+http://creativecommons.org/licenses/by/3.0/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Other Audio clips were sourced from &lt;a href=&quot;http://freesound.org/&quot;&gt;freesound.org&lt;/a&gt; and when I find the original clips I downloaded I will credit the specific artists.&lt;/p&gt;
+
+&lt;p&gt;The typeface used currently for all UI text elements (&lt;a href=&quot;http://www.1001fonts.com/white-rabbit-font.html&quot;&gt;White Rabbit&lt;/a&gt; by Matthew Welch) is free for commercial use.&lt;/p&gt;
+
+&lt;p&gt;All custom visuals were made by me, that’s why they’re rubbish.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;changelog&quot;&gt;Changelog&lt;/h3&gt;
+
+&lt;h4 id=&quot;03&quot;&gt;0.3&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Added Splash/Initializer Scene&lt;/li&gt;
+  &lt;li&gt;Added Main menu and proper pause menu&lt;/li&gt;
+  &lt;li&gt;Added option menu with resolution and audio controls&lt;/li&gt;
+  &lt;li&gt;Added two alternative BGM tracks&lt;/li&gt;
+  &lt;li&gt;Replaced OnGUI elements with object based UI elements&lt;/li&gt;
+  &lt;li&gt;Hidden Fullscreen and quit-to-desktop buttons in WebGl mode&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;025&quot;&gt;0.25&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed audio import settings, meaning it works in WebGL now&lt;/li&gt;
+  &lt;li&gt;WebGL player resolution optimized for this site&lt;/li&gt;
+  &lt;li&gt;UI elements now resize based on window size&lt;/li&gt;
+  &lt;li&gt;Audio migrated to new script&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;02&quot;&gt;0.2&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Paddles reset when button pressed&lt;/li&gt;
+  &lt;li&gt;Added toggle menu with: Pause/Play, Reset, Mute/Unmute and Quit Options&lt;/li&gt;
+  &lt;li&gt;Added countdown timer on serve&lt;/li&gt;
+  &lt;li&gt;Tidied up code with some extra comments&lt;/li&gt;
+  &lt;li&gt;Ball now starts at center (after slight delay)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;01&quot;&gt;0.1&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Initial Release
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+      </item>
+    
+      <item>
+        <title>Puzzle Gauntlet</title>
+        <link>http://www.jackhaydock.co.uk/posts/2017/puzzle</link>
+        <pubDate>Sat, 01 Jul 2017 00:00:00 +0100</pubDate>
+        <author>Jack Haydock</author>
+        <description>&lt;p&gt;I decided to have a bit of fun and set up a gauntlet of puzzles for anyone to enjoy. The format is simple, each page will contain a puzzle that, once solved, will reveal a clue and a link to the next puzzle. Once you’ve solved all the puzzles, the clues will form a final puzzle. You will not be reshown the clues so be sure to note them down.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/puzzle/01/&quot;&gt;
+Click here to Start.
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+</description>
+      </item>
+    
+      <item>
+        <title>New Blog</title>
+        <link>http://www.jackhaydock.co.uk/posts/2017/blog1</link>
+        <pubDate>Mon, 26 Jun 2017 00:00:00 +0100</pubDate>
+        <author>Jack Haydock</author>
+        <description>&lt;p&gt;I have created this third blog feed for no specific reason. I just felt that if I wished to create any posts that didn’t fit the others, I might as well have this feed, especially if there’s a spur-of-the-moment thing or an idea so small it shouldn’t require it’s own dedicated feed.&lt;/p&gt;
+
+&lt;p&gt;There are many things that could go here such as reviews, challenges or just anything I want to say but, for whatever reason, decide not to put it on a website that people actually use. If you want something posted here or have an idea of what I could put here or elsewhere on the site let me know (Contacts in footer).&lt;/p&gt;
+
+</description>
+      </item>
+    
+      <item>
+        <title>Pong (Web Audio Fix)</title>
+        <link>http://www.jackhaydock.co.uk/posts/2017/pong-025</link>
+        <pubDate>Fri, 09 Jun 2017 00:00:00 +0100</pubDate>
+        <author>Jack Haydock</author>
+        <description>&lt;h3 id=&quot;version-025&quot;&gt;Version: 0.25&lt;/h3&gt;
+
+&lt;iframe src=&quot;/public/projects/pong/0.25/index.html&quot; style=&quot;border:0px #000000 none;&quot; name=&quot;Pong&quot; scrolling=&quot;no&quot; height=&quot;360px&quot; width=&quot;710px&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;controls&quot;&gt;Controls&lt;/h3&gt;
+
+&lt;table style=&quot;text-align: center;&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;&lt;/th&gt;
+    &lt;th&gt;Left Player&lt;/th&gt;
+    &lt;th&gt;Right Player&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Up&lt;/th&gt;
+    &lt;td&gt;W&lt;/td&gt;
+    &lt;td&gt;Up Arrow&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Down&lt;/th&gt;
+    &lt;td&gt;S&lt;/td&gt;
+    &lt;td&gt;Down Arrow&lt;/td&gt;
+  &lt;/tr&gt; 
+  &lt;tr&gt;
+    &lt;th&gt;Pause&lt;/th&gt;
+    &lt;td colspan=&quot;2&quot;&gt;Esc&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Reset&lt;/th&gt;
+    &lt;td colspan=&quot;2&quot;&gt;R&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Menus are entirely mouse controlled. Be aware there is no ‘Are you sure?’ warnings for Reset or Quit just yet. Quit also does nothing in WebGl build, I will fix these issues.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;This is “Totally Original game not to too dissimilar to the 1972 classic, ‘Pong’”. Or TOGNTTDTT1972CP for short…let’s just call it Pong.&lt;/p&gt;
+
+&lt;p&gt;It is a multi-player game so grab a friend, enemy or that confused stranger in the street. You could also play with two hands like I do, I’m lonely.&lt;/p&gt;
+
+&lt;p&gt;If you’ve lived under a rock for the last 45 years, Pong is a greatly simplified version of tennis. Your only objective is to get the ball past your opponent and off the opposite side of the screen, and to do it more often than your opponent.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;downloads&quot;&gt;Downloads&lt;/h3&gt;
+
+&lt;p&gt;To run the the game, simply extract the .zips below and double click on the executable file. (Pong.exe, Pong.x86, Pong.x86_64 or Index.HTML). No install wizards needed just yet.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jackhaydock/Pong-Game/raw/master/Builds/0.25/Pong_025_Win.zip&quot; download=&quot;&quot;&gt;
+Windows
+&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/jackhaydock/Pong-Game/raw/master/Builds/0.25/Pong_025_Linux.zip&quot; download=&quot;&quot;&gt;
+Linux
+&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/jackhaydock/Pong-Game/raw/master/Builds/0.25/Pong_025_HTML.zip&quot; download=&quot;&quot;&gt;
+HTML/WebGL
+&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;notes&quot;&gt;Notes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;This game is optimized for 16:9 aspect ratios. While it should work on most aspect ratios, UI elements may overlap or be cut off by the windows with extreme ratios, especially on small screens.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;update-summary&quot;&gt;Update Summary&lt;/h3&gt;
+
+&lt;h4 id=&quot;version-025-1&quot;&gt;Version: 0.25&lt;/h4&gt;
+
+&lt;p&gt;For the user this is a minor update that adds audio to WebGl and the options of mute BGM and SFX independently, the behind-the-scenes however, is much bigger. I discovered the problem with WebGL audio was not about me needing to add extra code for the non-FMOD platform but about me correcting my import settings. I’m not sure why (my guess would be with poor Linux porting), but Unity requires FFmpeg (or similar) for making asset libraries properly and it wasn’t installed so installing it and reimporting the audio files fixed it.&lt;/p&gt;
+
+&lt;p&gt;The other big thing involving audio was that having audio being played, manipulated and muted from different scripts and objects was tedious and confusing, especially when isolating specific clips to mute. This was with only three audio files spread over four objects, so I decided to fix it before it became much worse. I moved all the audio handling to a new script (AudioManager.js) and called on them from other scripts. This did mean that all objects with audio needed the AudioManager script and, because of the array I used for differentiating clips attached to the same script/object, it meant I had to have three Audiosources attached to each audio object. This is not ideal and I will see about improving it in the next update, but now I’m tired and I want to get this up.&lt;/p&gt;
+
+&lt;p&gt;Another unforeseen consequence is the pitch of the audio clip when the ball hits a paddle is not manipulated in the same way. The code is the same but being in separate scripts seems to make the audio just sound a little different. It’s not a problem, more a curiosity I would like to understand.&lt;/p&gt;
+
+&lt;h3 id=&quot;planned-updates&quot;&gt;Planned updates&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;More Audio options (eg. Multiple bgm tracks, volume)&lt;/li&gt;
+  &lt;li&gt;Adjustable resolution for HTML&lt;/li&gt;
+  &lt;li&gt;Adjustable resolution without restart (Basic resizable windows are easy but not ideal)&lt;/li&gt;
+  &lt;li&gt;Improve Menu interface (perhaps a start menu or proper pause menu)&lt;/li&gt;
+  &lt;li&gt;Improved visuals&lt;/li&gt;
+  &lt;li&gt;Fix bug where ball occasionally flies offscreen at high speed&lt;/li&gt;
+  &lt;li&gt;Add singleplayer mode against AI player&lt;/li&gt;
+  &lt;li&gt;Add more gamemodes (Ie. AI, rotating paddles, multi-ball, timed, score-limit etc.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;permissions&quot;&gt;Permissions&lt;/h3&gt;
+
+&lt;p&gt;If you’re mad enough to want to use this product on your own site, you are welcome to. Just be nice enough to let me know and give credit.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;credits&quot;&gt;Credits&lt;/h3&gt;
+
+&lt;p&gt;All assets used in this product are under Creative Commons, Public Domain or of my own creation.&lt;/p&gt;
+
+&lt;p&gt;“Voice Over Under”&lt;br /&gt;
+Kevin MacLeod (incompetech.com)&lt;br /&gt;
+Licensed under Creative Commons: By Attribution 3.0
+http://creativecommons.org/licenses/by/3.0/&lt;/p&gt;
+
+&lt;p&gt;All visuals were made by me, that’s why they’re rubbish.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;changelog&quot;&gt;Changelog&lt;/h3&gt;
+
+&lt;h4 id=&quot;025&quot;&gt;0.25&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fixed audio import settings, meaning it works in WebGL now&lt;/li&gt;
+  &lt;li&gt;WebGL player resolution optimized for this site&lt;/li&gt;
+  &lt;li&gt;UI elements now resize based on window size&lt;/li&gt;
+  &lt;li&gt;Audio migrated to new script&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;02&quot;&gt;0.2&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Paddles reset when button pressed&lt;/li&gt;
+  &lt;li&gt;Added toggle menu with: Pause/Play, Reset, Mute/Unmute and Quit Options&lt;/li&gt;
+  &lt;li&gt;Added countdown timer on serve&lt;/li&gt;
+  &lt;li&gt;Tidied up code with some extra comments&lt;/li&gt;
+  &lt;li&gt;Ball now starts at center (after slight delay)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;01&quot;&gt;0.1&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Initial Release
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+      </item>
+    
+      <item>
+        <title>Pong</title>
+        <link>http://www.jackhaydock.co.uk/posts/2017/pong-02</link>
+        <pubDate>Sun, 04 Jun 2017 00:00:00 +0100</pubDate>
+        <author>Jack Haydock</author>
+        <description>&lt;h4 id=&quot;version-02&quot;&gt;Version: 0.2&lt;/h4&gt;
+
+&lt;iframe src=&quot;/public/projects/pong/0.2/index.html&quot; style=&quot;border:0px #000000 none;&quot; name=&quot;Pong&quot; scrolling=&quot;no&quot; height=&quot;450px&quot; width=&quot;800px&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;controls&quot;&gt;Controls:&lt;/h3&gt;
+
+&lt;table style=&quot;text-align: center;&quot;&gt;
+  &lt;tr&gt;
+    &lt;th&gt;&lt;/th&gt;
+    &lt;th&gt;Left Player&lt;/th&gt;
+    &lt;th&gt;Right Player&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Up&lt;/th&gt;
+    &lt;td&gt;W&lt;/td&gt;
+    &lt;td&gt;Up Arrow&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Down&lt;/th&gt;
+    &lt;td&gt;S&lt;/td&gt;
+    &lt;td&gt;Down Arrow&lt;/td&gt;
+  &lt;/tr&gt; 
+  &lt;tr&gt;
+    &lt;th&gt;Pause&lt;/th&gt;
+    &lt;td colspan=&quot;2&quot;&gt;Esc&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Reset&lt;/th&gt;
+    &lt;td colspan=&quot;2&quot;&gt;R&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Menus are entirely mouse controlled. Be aware there is no ‘Are you sure?’ warnings for Reset or Quit just yet.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary:&lt;/h3&gt;
+
+&lt;p&gt;This is “Totally Original game not to too dissimilar to the 1972 classic, ‘Pong’”. Or TOGNTTDTT1972CP for short…let’s just call it Pong.&lt;/p&gt;
+
+&lt;p&gt;It is a multi-player game so grab a friend, enemy or that confused stranger in the street, you could also play with two hands like I do, I’m lonely.&lt;/p&gt;
+
+&lt;p&gt;If you’ve lived under a rock for the last 45 years, Pong is a greatly simplified version of tennis. Your only objective is to get the ball past your opponent and off the opposite side of the screen, and to do it more often than your opponent.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;downloads&quot;&gt;Downloads:&lt;/h3&gt;
+&lt;p&gt;Click to download this build for the following platforms.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/jackhaydock/Pong-Game/raw/master/Builds/0.2/Pong_02_Win.zip&quot; download=&quot;&quot;&gt;
+Windows
+&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/jackhaydock/Pong-Game/raw/master/Builds/0.2/Pong_02_Linux.zip&quot; download=&quot;&quot;&gt;
+Linux
+&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/jackhaydock/Pong-Game/raw/master/Builds/0.2/Pong_02_HTML.zip&quot; download=&quot;&quot;&gt;
+HTML/WebGL
+&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;notes&quot;&gt;Notes:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Exporting audio into a WebGL build requires a whole different process so that will come later, for now if you want audio (I recommend it, there’s a great royalty-free track by Kevin MacLeod) you’ll have to download one of the Linux/Windows Builds.&lt;/li&gt;
+  &lt;li&gt;Once I am happy that this game is complete and tidy, I intend to create a more original version of Pong with extra gamemodes and new features absent from the original Pong.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;planned-updates&quot;&gt;Planned updates:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;More Audio options (eg. Pause/Play, Multiple tracks, mute music/sfx separately)&lt;/li&gt;
+  &lt;li&gt;Adjustable resolution for HTML&lt;/li&gt;
+  &lt;li&gt;Adjustable resolution without restart&lt;/li&gt;
+  &lt;li&gt;Improve Menu interface&lt;/li&gt;
+  &lt;li&gt;Improved visuals&lt;/li&gt;
+  &lt;li&gt;Audio for WebGL&lt;/li&gt;
+  &lt;li&gt;Fix bug where ball occasionally flies offscreen at high speed&lt;/li&gt;
+  &lt;li&gt;Add singleplayer mode against AI player&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;permissions&quot;&gt;Permissions&lt;/h3&gt;
+
+&lt;p&gt;If you’re mad enough to want to use this product on your own site, you are welcome to. Just be nice enough to let me know and give credit.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;credits&quot;&gt;Credits&lt;/h3&gt;
+
+&lt;p&gt;All assets used in this product are under Creative Commons, Public Domain or of my own creation.&lt;/p&gt;
+
+&lt;p&gt;“Voice Over Under”&lt;br /&gt;
+Kevin MacLeod (incompetech.com)&lt;br /&gt;
+Licensed under Creative Commons: By Attribution 3.0
+http://creativecommons.org/licenses/by/3.0/&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;changelog&quot;&gt;Changelog&lt;/h3&gt;
+
+&lt;h4 id=&quot;02&quot;&gt;0.2&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Paddles reset when button pressed&lt;/li&gt;
+  &lt;li&gt;Added toggle menu with: Pause/Play, Reset, Mute/Unmute and Quit Options&lt;/li&gt;
+  &lt;li&gt;Added countdown timer on serve&lt;/li&gt;
+  &lt;li&gt;Tidied up code with some extra comments&lt;/li&gt;
+  &lt;li&gt;Ball now starts at center (after slight delay)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;01&quot;&gt;0.1&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Initial Release
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+      </item>
+    
 
   </channel>
 </rss>

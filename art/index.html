@@ -1,33 +1,473 @@
----
-layout: feed
-title: Artwork
-desc: Here is a selection of some artwork I have created.<br>Most of these will be created with <a href="https://www.clipstudio.net/en" target="_blank">Clip Studio</a>, <a href="https://www.gimp.org/" target="_blank">GIMP</a> or <a href="https://krita.org/en/" target="_blank">Krita</a>.
----
+<!DOCTYPE html>
+<html>
+  <head>
 
-<div class="bundle row gutters fadeInDown animated">
+    <!-- meta information -->
+<meta charset="utf-8">
+
+  <meta name="description" content="{% for post in site.categories.art %}{{ post.title }}	      {{ post.date | date: "%-d %B %Y" }}      {% if forloop.la...">
+
+
+<meta name="author" content="Jack Haydock">
+
+
+  <meta name="image" content="http://www.jackhaydock.co.uk/public/images/logo.png">
+  <meta name="og:image" content="http://www.jackhaydock.co.uk/public/images/logo.png">
+
+<!---->
+
+<!-- Twitter Meta -->
+
+  <meta name="twitter:title" content="Artwork">
+  <meta name="twitter:description" content="{% for post in site.categories.art %}{{ post.title }}	      {{ post.date | date: "%-d %B %Y" }}      {% if forloop.la...">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="http://www.jackhaydock.co.uk/public/images/logo.png">
+
+
+<meta name="twitter:domain" content="http://www.jackhaydock.co.uk/art/">
+
+<!---->
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<!-- title -->
+<title>Artwork &middot; Jack Haydock</title>
+
+<!-- icons -->
+<link rel="shortcut icon" href="/public/images/favicon.ico" />
+
+<!-- stylesheets -->
+<link rel="stylesheet" href="/public/css/responsive.gs.12col.css">
+<link rel="stylesheet" href="/public/css/animate.min.css">
+<link rel="stylesheet" href="/public/css/main.css">
+
+<!-- Google fonts -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&subset=latin-ext">
+
+
+
+<!-- feed links -->
+<link rel="alternate" href="http://www.jackhaydock.co.uk/feed.xml" type="application/rss+xml" title="">
+
+
+  </head>
+  <body>
+
+      <div class="container azul">
+
+      <header class="top row gutters">
+
+        <div class="col span_2 center">
+          <!-- TODO: add baseurl to the logo link -->
+          <a href="/" id="logo" title="Jack Haydock"
+             style="background-image: url(/public/images/logo.png);">
+           </a>
+        </div><nav class="col span_10 top-navbar">
+
+  
+
+  <a href="/" title="Home"
+     >Home</a>
+  
+
+  <a href="/projects/" title="Projects"
+     >Projects</a>
+  
+
+  <a href="/art/" title="Art"
+     >Art</a>
+  
+
+  <a href="/blog/" title="Misc"
+     >Misc</a>
+  
+
+  <a href="/about/" title="About"
+     >About</a>
+  
+</nav>
+
+
+      </header>
+
+      <div class="fadeInDown animated">
+<h2 style="margin-bottom:0px;">Artwork</h2>
+<span class="feed-desc">Here is a selection of some artwork I have created.<br>Most of these will be created with <a href="https://www.clipstudio.net/en" target="_blank">Clip Studio</a>, <a href="https://www.gimp.org/" target="_blank">GIMP</a> or <a href="https://krita.org/en/" target="_blank">Krita</a>.</span>
+</div>
+
+  <div class="bundle row gutters fadeInDown animated">
 
 <section class="archive">
-{% for post in site.categories.art %}
+
 
 <!--Post Links -->
 
 <article class="row gutters">
 <div class="post-date col span_4">
-<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}" class="col span_8 postlink">
+<a href="/posts/2018/Fire" title="Behold! Fire!" class="col span_8 postlink">
 <strong>
-{{ post.title }}
+Behold! Fire!
 </strong>
 	<br>
-      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B %Y" }}</time>
+      <time datetime="2018-04-05">5 April 2018</time>
     </div>
-<img src={{ post.image }} alt='{{ post.title }}'>
+<img src=/public/post-thumbnails/2018/Fireplace.png alt='Behold! Fire!'>
 </a>
 
 
 
   </article>
 
-{% if forloop.last %}</div></div>{% endif %}
 
-{% endfor %}
+
+
+
+<!--Post Links -->
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a href="/posts/2017/YuleTide" title="Happy Yuletide!" class="col span_8 postlink">
+<strong>
+Happy Yuletide!
+</strong>
+	<br>
+      <time datetime="2017-12-25">25 December 2017</time>
+    </div>
+<img src=/public/post-thumbnails/2017/AlleyEvening-thumb.png alt='Happy Yuletide!'>
+</a>
+
+
+
+  </article>
+
+
+
+
+
+<!--Post Links -->
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a href="/posts/2017/Portraits" title="Yours Truly" class="col span_8 postlink">
+<strong>
+Yours Truly
+</strong>
+	<br>
+      <time datetime="2017-11-18">18 November 2017</time>
+    </div>
+<img src=/public/post-thumbnails/2017/pixelportrait.png alt='Yours Truly'>
+</a>
+
+
+
+  </article>
+
+
+
+
+
+<!--Post Links -->
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a href="/posts/2017/Rick" title="Wubba Lubba Dub Dub!" class="col span_8 postlink">
+<strong>
+Wubba Lubba Dub Dub!
+</strong>
+	<br>
+      <time datetime="2017-07-27">27 July 2017</time>
+    </div>
+<img src=/public/post-thumbnails/2017/RoT-Thumb.png alt='Wubba Lubba Dub Dub!'>
+</a>
+
+
+
+  </article>
+
+
+
+
+
+<!--Post Links -->
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a href="/posts/2017/Valentine" title="Happy Lupercalia!" class="col span_8 postlink">
+<strong>
+Happy Lupercalia!
+</strong>
+	<br>
+      <time datetime="2017-02-14">14 February 2017</time>
+    </div>
+<img src=/public/post-thumbnails/2017/Valentine-thumb.png alt='Happy Lupercalia!'>
+</a>
+
+
+
+  </article>
+
+
+
+
+
+<!--Post Links -->
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a href="/posts/2017/Trump" title="My Little Facist" class="col span_8 postlink">
+<strong>
+My Little Facist
+</strong>
+	<br>
+      <time datetime="2017-01-30">30 January 2017</time>
+    </div>
+<img src=/public/post-thumbnails/2017/Trump-thumb.png alt='My Little Facist'>
+</a>
+
+
+
+  </article>
+
+
+
+
+
+<!--Post Links -->
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a href="/posts/2017/Altair" title="Chibi Altair" class="col span_8 postlink">
+<strong>
+Chibi Altair
+</strong>
+	<br>
+      <time datetime="2017-01-29">29 January 2017</time>
+    </div>
+<img src=/public/post-thumbnails/2017/Altair-Thumb.png alt='Chibi Altair'>
+</a>
+
+
+
+  </article>
+
+
+
+
+
+<!--Post Links -->
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a href="/posts/2017/CNY" title="Chinese New Year" class="col span_8 postlink">
+<strong>
+Chinese New Year
+</strong>
+	<br>
+      <time datetime="2017-01-28">28 January 2017</time>
+    </div>
+<img src=/public/post-thumbnails/2017/CNY-Thumb.png alt='Chinese New Year'>
+</a>
+
+
+
+  </article>
+
+
+
+
+
+<!--Post Links -->
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a href="/posts/2017/wolf" title="Wolf" class="col span_8 postlink">
+<strong>
+Wolf
+</strong>
+	<br>
+      <time datetime="2017-01-27">27 January 2017</time>
+    </div>
+<img src=/public/post-thumbnails/2017/Wolf-thumb.png alt='Wolf'>
+</a>
+
+
+
+  </article>
+
+
+
+
+
+<!--Post Links -->
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a href="/posts/2017/killerabbit" title="Killer Rabbit" class="col span_8 postlink">
+<strong>
+Killer Rabbit
+</strong>
+	<br>
+      <time datetime="2017-01-22">22 January 2017</time>
+    </div>
+<img src=/public/post-thumbnails/2017/RabbitThumb.png alt='Killer Rabbit'>
+</a>
+
+
+
+  </article>
+
+
+
+
+
+<!--Post Links -->
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a href="/posts/2017/ICP" title="Internal Combustion Penguin" class="col span_8 postlink">
+<strong>
+Internal Combustion Penguin
+</strong>
+	<br>
+      <time datetime="2017-01-17">17 January 2017</time>
+    </div>
+<img src=/public/post-thumbnails/2017/ICP-thumb.png alt='Internal Combustion Penguin'>
+</a>
+
+
+
+  </article>
+
+
+
+
+
+<!--Post Links -->
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a href="/posts/2017/cats" title="Cats!" class="col span_8 postlink">
+<strong>
+Cats!
+</strong>
+	<br>
+      <time datetime="2017-01-12">12 January 2017</time>
+    </div>
+<img src=/public/post-thumbnails/2017/ballcute.png alt='Cats!'>
+</a>
+
+
+
+  </article>
+
+
+
+
+
+<!--Post Links -->
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a href="/posts/2017/new-year" title="Happy New Year!" class="col span_8 postlink">
+<strong>
+Happy New Year!
+</strong>
+	<br>
+      <time datetime="2017-01-01">1 January 2017</time>
+    </div>
+<img src=/public/post-thumbnails/2017/TUG-2017.png alt='Happy New Year!'>
+</a>
+
+
+
+  </article>
+
+
+
+
+
+<!--Post Links -->
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a href="/posts/2016/merry-xmas" title="Merry Christmas!" class="col span_8 postlink">
+<strong>
+Merry Christmas!
+</strong>
+	<br>
+      <time datetime="2016-12-25">25 December 2016</time>
+    </div>
+<img src=/public/post-thumbnails/2016/TUG-xmas.png alt='Merry Christmas!'>
+</a>
+
+
+
+  </article>
+
+
+
+
+
+<!--Post Links -->
+
+<article class="row gutters">
+<div class="post-date col span_4">
+<a href="/posts/2016/new-site" title="New Site!" class="col span_8 postlink">
+<strong>
+New Site!
+</strong>
+	<br>
+      <time datetime="2016-12-24">24 December 2016</time>
+    </div>
+<img src=/public/post-thumbnails/2016/totoro-xmas.png alt='New Site!'>
+</a>
+
+
+
+  </article>
+
+</div></div>
+
+
 </section>
+
+
+
+      <footer>
+        <p>
+
+	Contact me:
+<br>jwhaydock@jackhaydock.co.uk
+<br>
+<br>
+
+	This website is hosted on
+ <a href="https://github.com/jackhaydock/jackhaydock2.github.io" target="blank">GitHub</a>
+ and was originally created using
+ <a href="https://jekyllrb.com/" target="blank">Jekyll</a>
+ and the
+ <a href="http://jekyllthemes.org/themes/brume/" target="blank">brume</a>
+ theme
+ created by Aigars Dzerviniks, licensed under an
+ <a rel="license" href="https://github.com/aigarsdz/brume/blob/master/LICENSE.md" target="blank">MIT License</a>.
+        </p>
+      </footer>
+
+</div>
+
+<!-- scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/public/js/jquery.fitvids.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("article").fitVids();
+      });
+    </script>
+
+
+  </body>
+</html>
